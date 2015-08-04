@@ -30,21 +30,22 @@ Partial Class feedbackform
         '
         Me.WebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.WebBrowser1.Location = New System.Drawing.Point(0, 0)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 22)
         Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(555, 305)
+        Me.WebBrowser1.Size = New System.Drawing.Size(555, 328)
         Me.WebBrowser1.TabIndex = 0
         Me.WebBrowser1.Url = New System.Uri("http://ph.ishare2.trendmicro.com/sites/weshare/closedloopproject/SitePages/Home.a" & _
         "spx", System.UriKind.Absolute)
         '
         'feedbackform
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(555, 305)
+        Me.ClientSize = New System.Drawing.Size(555, 328)
         Me.Controls.Add(Me.WebBrowser1)
+        Me.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.MinimumSize = New System.Drawing.Size(500, 300)
+        Me.MinimumSize = New System.Drawing.Size(500, 320)
         Me.Name = "feedbackform"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Project Diamond"

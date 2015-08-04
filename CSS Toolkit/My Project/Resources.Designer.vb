@@ -484,6 +484,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Red_Background_Wallpaper_Design_Art() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Red-Background-Wallpaper-Design-Art", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property SEM() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("SEM", resourceCulture)
@@ -647,6 +657,16 @@ Namespace My.Resources
         Friend ReadOnly Property trend_micro_logo() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("trend-micro-logo", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property white_wallpaper_14() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("white-wallpaper-14", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

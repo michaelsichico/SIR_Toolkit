@@ -11,7 +11,7 @@ Public Class issue
         Try
             cn.Close()
         Catch ex As Exception
-            MsgBox(ex.Message)
+            'MsgBox(ex.Message)
         End Try
     End Sub
 
@@ -23,7 +23,7 @@ Public Class issue
             'load file from .xls to datagrid view
             ' FillDataGridView("select from [Data Agen$]")
         Catch ex As Exception
-
+            'MsgBox(ex.Message)
         End Try
     End Sub
 End Class

@@ -50,9 +50,9 @@ Partial Class timezone
         Me.GroupBox1.Controls.Add(Me.timeNabu)
         Me.GroupBox1.Controls.Add(Me.dateNABU)
         Me.GroupBox1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 13)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(216, 76)
+        Me.GroupBox1.Size = New System.Drawing.Size(216, 82)
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "NABU"
@@ -62,7 +62,7 @@ Partial Class timezone
         Me.ComboBox1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Atlantic Standard Time", "Central Standard Time", "Eastern Standard Time", "Pacific Standard Time", "Mountain Standard Time"})
-        Me.ComboBox1.Location = New System.Drawing.Point(6, 19)
+        Me.ComboBox1.Location = New System.Drawing.Point(6, 20)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(200, 22)
         Me.ComboBox1.TabIndex = 5
@@ -71,7 +71,7 @@ Partial Class timezone
         '
         Me.timeNabu.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.timeNabu.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.timeNabu.Location = New System.Drawing.Point(112, 46)
+        Me.timeNabu.Location = New System.Drawing.Point(112, 50)
         Me.timeNabu.Name = "timeNabu"
         Me.timeNabu.ShowUpDown = True
         Me.timeNabu.Size = New System.Drawing.Size(94, 20)
@@ -81,7 +81,7 @@ Partial Class timezone
         '
         Me.dateNABU.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dateNABU.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dateNABU.Location = New System.Drawing.Point(6, 46)
+        Me.dateNABU.Location = New System.Drawing.Point(6, 50)
         Me.dateNABU.Name = "dateNABU"
         Me.dateNABU.Size = New System.Drawing.Size(100, 20)
         Me.dateNABU.TabIndex = 3
@@ -90,9 +90,9 @@ Partial Class timezone
         '
         Me.GroupBox2.Controls.Add(Me.TextBox1)
         Me.GroupBox2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(12, 94)
+        Me.GroupBox2.Location = New System.Drawing.Point(12, 101)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(216, 52)
+        Me.GroupBox2.Size = New System.Drawing.Size(216, 56)
         Me.GroupBox2.TabIndex = 6
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Local Time"
@@ -100,7 +100,7 @@ Partial Class timezone
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(6, 19)
+        Me.TextBox1.Location = New System.Drawing.Point(6, 20)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(200, 20)
         Me.TextBox1.TabIndex = 4
@@ -114,9 +114,9 @@ Partial Class timezone
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Button1.Location = New System.Drawing.Point(12, 152)
+        Me.Button1.Location = New System.Drawing.Point(12, 164)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(75, 25)
         Me.Button1.TabIndex = 7
         Me.Button1.Text = "Convert"
         Me.Button1.UseVisualStyleBackColor = False
@@ -127,9 +127,9 @@ Partial Class timezone
         Me.GroupBox3.Controls.Add(Me.timeAPEC)
         Me.GroupBox3.Controls.Add(Me.dateAPEC)
         Me.GroupBox3.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(234, 12)
+        Me.GroupBox3.Location = New System.Drawing.Point(234, 13)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(216, 76)
+        Me.GroupBox3.Size = New System.Drawing.Size(216, 82)
         Me.GroupBox3.TabIndex = 6
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "APEC"
@@ -139,7 +139,7 @@ Partial Class timezone
         Me.ComboBox2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"Australian Eastern Standard Time", "Australian Central Standard Time", "Australian Western Standard Time", "New Zealand Standard Time"})
-        Me.ComboBox2.Location = New System.Drawing.Point(6, 19)
+        Me.ComboBox2.Location = New System.Drawing.Point(6, 20)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(200, 22)
         Me.ComboBox2.TabIndex = 5
@@ -148,7 +148,7 @@ Partial Class timezone
         '
         Me.timeAPEC.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.timeAPEC.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.timeAPEC.Location = New System.Drawing.Point(112, 46)
+        Me.timeAPEC.Location = New System.Drawing.Point(112, 50)
         Me.timeAPEC.Name = "timeAPEC"
         Me.timeAPEC.ShowUpDown = True
         Me.timeAPEC.Size = New System.Drawing.Size(94, 20)
@@ -158,7 +158,7 @@ Partial Class timezone
         '
         Me.dateAPEC.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dateAPEC.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dateAPEC.Location = New System.Drawing.Point(6, 46)
+        Me.dateAPEC.Location = New System.Drawing.Point(6, 50)
         Me.dateAPEC.Name = "dateAPEC"
         Me.dateAPEC.Size = New System.Drawing.Size(100, 20)
         Me.dateAPEC.TabIndex = 3
@@ -167,9 +167,9 @@ Partial Class timezone
         '
         Me.GroupBox4.Controls.Add(Me.TextBox2)
         Me.GroupBox4.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox4.Location = New System.Drawing.Point(234, 94)
+        Me.GroupBox4.Location = New System.Drawing.Point(234, 101)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(216, 52)
+        Me.GroupBox4.Size = New System.Drawing.Size(216, 56)
         Me.GroupBox4.TabIndex = 7
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Local Time"
@@ -177,7 +177,7 @@ Partial Class timezone
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(6, 19)
+        Me.TextBox2.Location = New System.Drawing.Point(6, 20)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(200, 20)
         Me.TextBox2.TabIndex = 4
@@ -191,9 +191,9 @@ Partial Class timezone
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Button2.Location = New System.Drawing.Point(240, 152)
+        Me.Button2.Location = New System.Drawing.Point(240, 164)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(75, 25)
         Me.Button2.TabIndex = 8
         Me.Button2.Text = "Convert"
         Me.Button2.UseVisualStyleBackColor = False
@@ -215,9 +215,9 @@ Partial Class timezone
         '
         'timezone
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(464, 190)
+        Me.ClientSize = New System.Drawing.Size(464, 202)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.GroupBox4)
@@ -225,6 +225,7 @@ Partial Class timezone
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False

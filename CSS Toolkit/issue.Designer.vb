@@ -27,19 +27,19 @@ Partial Class issue
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.WebBrowser3 = New System.Windows.Forms.WebBrowser()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.WebBrowser4 = New System.Windows.Forms.WebBrowser()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.TabPage7 = New System.Windows.Forms.TabPage()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
-        Me.WebBrowser2 = New System.Windows.Forms.WebBrowser()
-        Me.WebBrowser3 = New System.Windows.Forms.WebBrowser()
-        Me.WebBrowser4 = New System.Windows.Forms.WebBrowser()
-        Me.WebBrowser5 = New System.Windows.Forms.WebBrowser()
         Me.TabPage8 = New System.Windows.Forms.TabPage()
         Me.WebBrowser6 = New System.Windows.Forms.WebBrowser()
+        Me.WebBrowser2 = New System.Windows.Forms.WebBrowser()
+        Me.WebBrowser5 = New System.Windows.Forms.WebBrowser()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabControl2.SuspendLayout()
@@ -91,7 +91,7 @@ Partial Class issue
         'TabPage3
         '
         Me.TabPage3.Controls.Add(Me.WebBrowser3)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 23)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage3.Size = New System.Drawing.Size(507, 312)
@@ -99,16 +99,38 @@ Partial Class issue
         Me.TabPage3.Text = "Hot Issue"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
+        'WebBrowser3
+        '
+        Me.WebBrowser3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.WebBrowser3.Location = New System.Drawing.Point(3, 3)
+        Me.WebBrowser3.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser3.Name = "WebBrowser3"
+        Me.WebBrowser3.Size = New System.Drawing.Size(501, 306)
+        Me.WebBrowser3.TabIndex = 0
+        Me.WebBrowser3.Url = New System.Uri("http://ph.ishare2.trendmicro.com/sites/weshare_A_2014/01_REPORTS/22_FREE_PHONES/0" & _
+        "1_ENGRS/Delta/10_Tech%20Tips/Issue.htm", System.UriKind.Absolute)
+        '
         'TabPage4
         '
         Me.TabPage4.Controls.Add(Me.WebBrowser4)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 23)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage4.Size = New System.Drawing.Size(507, 312)
         Me.TabPage4.TabIndex = 1
         Me.TabPage4.Text = "Possible Hot Issue"
         Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'WebBrowser4
+        '
+        Me.WebBrowser4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.WebBrowser4.Location = New System.Drawing.Point(3, 3)
+        Me.WebBrowser4.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser4.Name = "WebBrowser4"
+        Me.WebBrowser4.Size = New System.Drawing.Size(501, 306)
+        Me.WebBrowser4.TabIndex = 0
+        Me.WebBrowser4.Url = New System.Uri("http://ph.ishare2.trendmicro.com/sites/weshare_A_2014/01_REPORTS/22_FREE_PHONES/0" & _
+        "1_ENGRS/Delta/10_Tech%20Tips/Possible%20Hot%20Issue.htm", System.UriKind.Absolute)
         '
         'TabPage5
         '
@@ -124,10 +146,10 @@ Partial Class issue
         'TabPage2
         '
         Me.TabPage2.Controls.Add(Me.TabControl3)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 23)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(521, 344)
+        Me.TabPage2.Size = New System.Drawing.Size(521, 343)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Non-Tech Issue"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -140,13 +162,13 @@ Partial Class issue
         Me.TabControl3.Location = New System.Drawing.Point(3, 3)
         Me.TabControl3.Name = "TabControl3"
         Me.TabControl3.SelectedIndex = 0
-        Me.TabControl3.Size = New System.Drawing.Size(515, 338)
+        Me.TabControl3.Size = New System.Drawing.Size(515, 337)
         Me.TabControl3.TabIndex = 0
         '
         'TabPage7
         '
         Me.TabPage7.Controls.Add(Me.WebBrowser1)
-        Me.TabPage7.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 23)
         Me.TabPage7.Name = "TabPage7"
         Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage7.Size = New System.Drawing.Size(507, 312)
@@ -171,59 +193,18 @@ Partial Class issue
         Me.TabPage6.Location = New System.Drawing.Point(4, 22)
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(507, 312)
+        Me.TabPage6.Size = New System.Drawing.Size(507, 311)
         Me.TabPage6.TabIndex = 2
         Me.TabPage6.Text = "Possible Hot Issue"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
-        'WebBrowser2
-        '
-        Me.WebBrowser2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.WebBrowser2.Location = New System.Drawing.Point(3, 3)
-        Me.WebBrowser2.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser2.Name = "WebBrowser2"
-        Me.WebBrowser2.Size = New System.Drawing.Size(501, 306)
-        Me.WebBrowser2.TabIndex = 0
-        Me.WebBrowser2.Url = New System.Uri("", System.UriKind.Relative)
-        '
-        'WebBrowser3
-        '
-        Me.WebBrowser3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.WebBrowser3.Location = New System.Drawing.Point(3, 3)
-        Me.WebBrowser3.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser3.Name = "WebBrowser3"
-        Me.WebBrowser3.Size = New System.Drawing.Size(501, 306)
-        Me.WebBrowser3.TabIndex = 0
-        Me.WebBrowser3.Url = New System.Uri("http://ph.ishare2.trendmicro.com/sites/weshare_A_2014/01_REPORTS/22_FREE_PHONES/0" & _
-        "1_ENGRS/Delta/10_Tech%20Tips/Issue.htm", System.UriKind.Absolute)
-        '
-        'WebBrowser4
-        '
-        Me.WebBrowser4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.WebBrowser4.Location = New System.Drawing.Point(3, 3)
-        Me.WebBrowser4.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser4.Name = "WebBrowser4"
-        Me.WebBrowser4.Size = New System.Drawing.Size(501, 306)
-        Me.WebBrowser4.TabIndex = 0
-        Me.WebBrowser4.Url = New System.Uri("http://ph.ishare2.trendmicro.com/sites/weshare_A_2014/01_REPORTS/22_FREE_PHONES/0" & _
-        "1_ENGRS/Delta/10_Tech%20Tips/Possible%20Hot%20Issue.htm", System.UriKind.Absolute)
-        '
-        'WebBrowser5
-        '
-        Me.WebBrowser5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.WebBrowser5.Location = New System.Drawing.Point(3, 3)
-        Me.WebBrowser5.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser5.Name = "WebBrowser5"
-        Me.WebBrowser5.Size = New System.Drawing.Size(501, 306)
-        Me.WebBrowser5.TabIndex = 0
-        '
         'TabPage8
         '
         Me.TabPage8.Controls.Add(Me.WebBrowser6)
-        Me.TabPage8.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 23)
         Me.TabPage8.Name = "TabPage8"
         Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage8.Size = New System.Drawing.Size(521, 344)
+        Me.TabPage8.Size = New System.Drawing.Size(521, 343)
         Me.TabPage8.TabIndex = 2
         Me.TabPage8.Text = "Other Info"
         Me.TabPage8.UseVisualStyleBackColor = True
@@ -234,10 +215,29 @@ Partial Class issue
         Me.WebBrowser6.Location = New System.Drawing.Point(3, 3)
         Me.WebBrowser6.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser6.Name = "WebBrowser6"
-        Me.WebBrowser6.Size = New System.Drawing.Size(515, 338)
+        Me.WebBrowser6.Size = New System.Drawing.Size(515, 337)
         Me.WebBrowser6.TabIndex = 0
         Me.WebBrowser6.Url = New System.Uri("http://ph.ishare2.trendmicro.com/sites/weshare_A_2014/01_REPORTS/22_FREE_PHONES/0" & _
         "1_ENGRS/Delta/10_Tech%20Tips/Other%20Information.htm", System.UriKind.Absolute)
+        '
+        'WebBrowser2
+        '
+        Me.WebBrowser2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.WebBrowser2.Location = New System.Drawing.Point(3, 3)
+        Me.WebBrowser2.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser2.Name = "WebBrowser2"
+        Me.WebBrowser2.Size = New System.Drawing.Size(501, 305)
+        Me.WebBrowser2.TabIndex = 0
+        Me.WebBrowser2.Url = New System.Uri("", System.UriKind.Relative)
+        '
+        'WebBrowser5
+        '
+        Me.WebBrowser5.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.WebBrowser5.Location = New System.Drawing.Point(3, 3)
+        Me.WebBrowser5.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser5.Name = "WebBrowser5"
+        Me.WebBrowser5.Size = New System.Drawing.Size(501, 306)
+        Me.WebBrowser5.TabIndex = 0
         '
         'issue
         '
@@ -274,10 +274,10 @@ Partial Class issue
     Friend WithEvents TabPage7 As System.Windows.Forms.TabPage
     Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents TabPage6 As System.Windows.Forms.TabPage
-    Friend WithEvents WebBrowser2 As System.Windows.Forms.WebBrowser
     Friend WithEvents WebBrowser3 As System.Windows.Forms.WebBrowser
     Friend WithEvents WebBrowser4 As System.Windows.Forms.WebBrowser
-    Friend WithEvents WebBrowser5 As System.Windows.Forms.WebBrowser
     Friend WithEvents TabPage8 As System.Windows.Forms.TabPage
     Friend WithEvents WebBrowser6 As System.Windows.Forms.WebBrowser
+    Friend WithEvents WebBrowser5 As System.Windows.Forms.WebBrowser
+    Friend WithEvents WebBrowser2 As System.Windows.Forms.WebBrowser
 End Class

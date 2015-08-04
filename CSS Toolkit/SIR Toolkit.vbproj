@@ -314,6 +314,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="31353.ico" />
+    <None Include="Resources\white-wallpaper-14.jpg" />
+    <None Include="Resources\Red-Background-Wallpaper-Design-Art.jpg" />
     <None Include="Resources\TimeZone2.png" />
     <None Include="Resources\Hot Issues2.png" />
     <None Include="Resources\SEM2.png" />

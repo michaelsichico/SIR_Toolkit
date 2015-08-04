@@ -40,36 +40,40 @@ Partial Class About_Us
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(118, 330)
+        Me.Label7.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(118, 355)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(225, 26)
+        Me.Label7.Size = New System.Drawing.Size(230, 28)
         Me.Label7.TabIndex = 15
         Me.Label7.Text = "Name: John Salenga" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Email Address: john_salenga@trendmicro.com"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(118, 118)
+        Me.Label6.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(118, 127)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(219, 26)
+        Me.Label6.Size = New System.Drawing.Size(226, 28)
         Me.Label6.TabIndex = 13
         Me.Label6.Text = "Name: Joshua Cruz" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Email Address: joshua_cruz@trendmicro.com" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(118, 224)
+        Me.Label5.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(118, 241)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(208, 26)
+        Me.Label5.Size = New System.Drawing.Size(214, 28)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "Name: Bryan Lee" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Email Address: bryan_lee@trendmicro.com"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(118, 12)
+        Me.Label1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(118, 13)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(237, 26)
+        Me.Label1.Size = New System.Drawing.Size(242, 28)
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "Name: Michael Sichico" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Email Address: michael_sichico@trendmicro.com"
         '
@@ -77,9 +81,9 @@ Partial Class About_Us
         '
         Me.PictureBox7.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources.percy
         Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox7.Location = New System.Drawing.Point(12, 330)
+        Me.PictureBox7.Location = New System.Drawing.Point(12, 355)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox7.Size = New System.Drawing.Size(100, 108)
         Me.PictureBox7.TabIndex = 14
         Me.PictureBox7.TabStop = False
         '
@@ -87,9 +91,9 @@ Partial Class About_Us
         '
         Me.PictureBox6.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources.bryan
         Me.PictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox6.Location = New System.Drawing.Point(12, 224)
+        Me.PictureBox6.Location = New System.Drawing.Point(12, 241)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox6.Size = New System.Drawing.Size(100, 108)
         Me.PictureBox6.TabIndex = 11
         Me.PictureBox6.TabStop = False
         '
@@ -97,9 +101,9 @@ Partial Class About_Us
         '
         Me.PictureBox5.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources.shua
         Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox5.Location = New System.Drawing.Point(12, 118)
+        Me.PictureBox5.Location = New System.Drawing.Point(12, 127)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox5.Size = New System.Drawing.Size(100, 108)
         Me.PictureBox5.TabIndex = 10
         Me.PictureBox5.TabStop = False
         '
@@ -107,17 +111,17 @@ Partial Class About_Us
         '
         Me.PictureBox1.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources.sichi3
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 13)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox1.Size = New System.Drawing.Size(100, 108)
         Me.PictureBox1.TabIndex = 8
         Me.PictureBox1.TabStop = False
         '
         'About_Us
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(365, 441)
+        Me.ClientSize = New System.Drawing.Size(365, 475)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.PictureBox7)
         Me.Controls.Add(Me.Label6)
@@ -126,6 +130,7 @@ Partial Class About_Us
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False

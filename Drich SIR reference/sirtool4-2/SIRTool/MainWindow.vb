@@ -1018,7 +1018,7 @@ Public Class MainWindow
 
     End Sub
 
-    Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
+    Private Sub Button18_Click(sender As Object, e As EventArgs)
         If txtbxClientname.Text = "" Then
             Exit Sub
         End If

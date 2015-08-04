@@ -49,6 +49,7 @@ Partial Class SIRTool
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -75,7 +76,6 @@ Partial Class SIRTool
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
@@ -95,7 +95,7 @@ Partial Class SIRTool
         Me.TabControl1.Location = New System.Drawing.Point(0, 0)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(404, 741)
+        Me.TabControl1.Size = New System.Drawing.Size(404, 733)
         Me.TabControl1.TabIndex = 0
         '
         'TabPage1
@@ -118,7 +118,7 @@ Partial Class SIRTool
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(396, 715)
+        Me.TabPage1.Size = New System.Drawing.Size(396, 707)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Phone"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -409,6 +409,14 @@ Partial Class SIRTool
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Entitlement Check"
         '
+        'MaskedTextBox2
+        '
+        Me.MaskedTextBox2.Location = New System.Drawing.Point(91, 95)
+        Me.MaskedTextBox2.Mask = "LLLL-0000-0000-0000-0000"
+        Me.MaskedTextBox2.Name = "MaskedTextBox2"
+        Me.MaskedTextBox2.Size = New System.Drawing.Size(177, 20)
+        Me.MaskedTextBox2.TabIndex = 20
+        '
         'Button11
         '
         Me.Button11.BackColor = System.Drawing.Color.Red
@@ -667,20 +675,12 @@ Partial Class SIRTool
         Me.TabPage2.Text = "Online"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'MaskedTextBox2
-        '
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(91, 95)
-        Me.MaskedTextBox2.Mask = "LLLL-0000-0000-0000-0000"
-        Me.MaskedTextBox2.Name = "MaskedTextBox2"
-        Me.MaskedTextBox2.Size = New System.Drawing.Size(177, 20)
-        Me.MaskedTextBox2.TabIndex = 20
-        '
         'SIRTool
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.ClientSize = New System.Drawing.Size(404, 741)
+        Me.ClientSize = New System.Drawing.Size(404, 733)
         Me.Controls.Add(Me.TabControl1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False

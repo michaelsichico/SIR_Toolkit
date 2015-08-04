@@ -28,19 +28,20 @@ Partial Class mainform
         Me.Label4 = New System.Windows.Forms.Label()
         Me.lbl_sec_break = New System.Windows.Forms.Label()
         Me.lbl_min_break = New System.Windows.Forms.Label()
+        Me.btn_break = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lbl_sec_lunch = New System.Windows.Forms.Label()
         Me.lbl_min_lunch = New System.Windows.Forms.Label()
+        Me.btn_lunch = New System.Windows.Forms.Button()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.lbl_sec_rest = New System.Windows.Forms.Label()
         Me.lbl_min_rest = New System.Windows.Forms.Label()
+        Me.btn_rest = New System.Windows.Forms.Button()
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
         Me.Label9 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
@@ -51,10 +52,7 @@ Partial Class mainform
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.btn_rest = New System.Windows.Forms.Button()
-        Me.btn_lunch = New System.Windows.Forms.Button()
         Me.btn_close = New System.Windows.Forms.Button()
-        Me.btn_break = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
@@ -71,7 +69,8 @@ Partial Class mainform
         Me.GroupBox1.Controls.Add(Me.lbl_min_break)
         Me.GroupBox1.Controls.Add(Me.btn_break)
         Me.GroupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 204)
+        Me.GroupBox1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 218)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(130, 50)
         Me.GroupBox1.TabIndex = 2
@@ -108,6 +107,22 @@ Partial Class mainform
         Me.lbl_min_break.TabIndex = 6
         Me.lbl_min_break.Text = "30"
         '
+        'btn_break
+        '
+        Me.btn_break.BackColor = System.Drawing.Color.Transparent
+        Me.btn_break.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources._1433873769_play_arrow
+        Me.btn_break.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_break.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control
+        Me.btn_break.FlatAppearance.BorderSize = 0
+        Me.btn_break.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon
+        Me.btn_break.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.btn_break.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_break.Location = New System.Drawing.Point(83, 19)
+        Me.btn_break.Name = "btn_break"
+        Me.btn_break.Size = New System.Drawing.Size(20, 20)
+        Me.btn_break.TabIndex = 3
+        Me.btn_break.UseVisualStyleBackColor = False
+        '
         'Timer1
         '
         Me.Timer1.Interval = 10
@@ -120,7 +135,8 @@ Partial Class mainform
         Me.GroupBox2.Controls.Add(Me.lbl_min_lunch)
         Me.GroupBox2.Controls.Add(Me.btn_lunch)
         Me.GroupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox2.Location = New System.Drawing.Point(131, 204)
+        Me.GroupBox2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Location = New System.Drawing.Point(148, 218)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(130, 50)
         Me.GroupBox2.TabIndex = 11
@@ -157,6 +173,22 @@ Partial Class mainform
         Me.lbl_min_lunch.TabIndex = 6
         Me.lbl_min_lunch.Text = "60"
         '
+        'btn_lunch
+        '
+        Me.btn_lunch.BackColor = System.Drawing.Color.Transparent
+        Me.btn_lunch.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources._1433873769_play_arrow
+        Me.btn_lunch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_lunch.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control
+        Me.btn_lunch.FlatAppearance.BorderSize = 0
+        Me.btn_lunch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon
+        Me.btn_lunch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.btn_lunch.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_lunch.Location = New System.Drawing.Point(84, 20)
+        Me.btn_lunch.Name = "btn_lunch"
+        Me.btn_lunch.Size = New System.Drawing.Size(20, 20)
+        Me.btn_lunch.TabIndex = 3
+        Me.btn_lunch.UseVisualStyleBackColor = False
+        '
         'Timer2
         '
         Me.Timer2.Interval = 10
@@ -169,7 +201,8 @@ Partial Class mainform
         Me.GroupBox3.Controls.Add(Me.lbl_min_rest)
         Me.GroupBox3.Controls.Add(Me.btn_rest)
         Me.GroupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GroupBox3.Location = New System.Drawing.Point(250, 204)
+        Me.GroupBox3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox3.Location = New System.Drawing.Point(284, 218)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(130, 50)
         Me.GroupBox3.TabIndex = 12
@@ -206,35 +239,25 @@ Partial Class mainform
         Me.lbl_min_rest.TabIndex = 6
         Me.lbl_min_rest.Text = "15"
         '
+        'btn_rest
+        '
+        Me.btn_rest.BackColor = System.Drawing.Color.Transparent
+        Me.btn_rest.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources._1433873769_play_arrow
+        Me.btn_rest.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_rest.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control
+        Me.btn_rest.FlatAppearance.BorderSize = 0
+        Me.btn_rest.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon
+        Me.btn_rest.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.btn_rest.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_rest.Location = New System.Drawing.Point(85, 20)
+        Me.btn_rest.Name = "btn_rest"
+        Me.btn_rest.Size = New System.Drawing.Size(20, 20)
+        Me.btn_rest.TabIndex = 3
+        Me.btn_rest.UseVisualStyleBackColor = False
+        '
         'Timer3
         '
         Me.Timer3.Interval = 10
-        '
-        'Button7
-        '
-        Me.Button7.BackColor = System.Drawing.Color.Silver
-        Me.Button7.FlatAppearance.BorderSize = 0
-        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver
-        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Location = New System.Drawing.Point(12, 58)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(524, 5)
-        Me.Button7.TabIndex = 19
-        Me.Button7.UseVisualStyleBackColor = False
-        '
-        'Button8
-        '
-        Me.Button8.BackColor = System.Drawing.Color.Silver
-        Me.Button8.FlatAppearance.BorderSize = 0
-        Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver
-        Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Location = New System.Drawing.Point(12, 193)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(524, 5)
-        Me.Button8.TabIndex = 20
-        Me.Button8.UseVisualStyleBackColor = False
         '
         'Timer4
         '
@@ -244,10 +267,10 @@ Partial Class mainform
         '
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(118, 20)
+        Me.Label9.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(118, 28)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(188, 24)
+        Me.Label9.Size = New System.Drawing.Size(197, 24)
         Me.Label9.TabIndex = 21
         Me.Label9.Text = "SIR Toolkit 改 (KAI)"
         '
@@ -266,7 +289,7 @@ Partial Class mainform
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Button9.Location = New System.Drawing.Point(224, 77)
+        Me.Button9.Location = New System.Drawing.Point(224, 92)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(100, 100)
         Me.Button9.TabIndex = 26
@@ -284,7 +307,7 @@ Partial Class mainform
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Button3.Location = New System.Drawing.Point(470, 224)
+        Me.Button3.Location = New System.Drawing.Point(470, 238)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(30, 30)
         Me.Button3.TabIndex = 25
@@ -302,7 +325,7 @@ Partial Class mainform
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Button2.Location = New System.Drawing.Point(434, 77)
+        Me.Button2.Location = New System.Drawing.Point(438, 92)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(100, 100)
         Me.Button2.TabIndex = 24
@@ -320,7 +343,7 @@ Partial Class mainform
         Me.btn_feedback.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_feedback.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_feedback.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.btn_feedback.Location = New System.Drawing.Point(506, 224)
+        Me.btn_feedback.Location = New System.Drawing.Point(506, 238)
         Me.btn_feedback.Name = "btn_feedback"
         Me.btn_feedback.Size = New System.Drawing.Size(30, 30)
         Me.btn_feedback.TabIndex = 23
@@ -338,7 +361,7 @@ Partial Class mainform
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Button6.Location = New System.Drawing.Point(332, 77)
+        Me.Button6.Location = New System.Drawing.Point(332, 92)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(100, 100)
         Me.Button6.TabIndex = 18
@@ -356,7 +379,7 @@ Partial Class mainform
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Button5.Location = New System.Drawing.Point(118, 77)
+        Me.Button5.Location = New System.Drawing.Point(118, 92)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(100, 100)
         Me.Button5.TabIndex = 17
@@ -374,48 +397,16 @@ Partial Class mainform
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Button1.Location = New System.Drawing.Point(12, 77)
+        Me.Button1.Location = New System.Drawing.Point(12, 92)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 100)
         Me.Button1.TabIndex = 13
         Me.ToolTip1.SetToolTip(Me.Button1, "SIR Tool")
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'btn_rest
-        '
-        Me.btn_rest.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.btn_rest.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources._1433873769_play_arrow
-        Me.btn_rest.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_rest.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control
-        Me.btn_rest.FlatAppearance.BorderSize = 0
-        Me.btn_rest.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon
-        Me.btn_rest.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.btn_rest.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_rest.Location = New System.Drawing.Point(85, 20)
-        Me.btn_rest.Name = "btn_rest"
-        Me.btn_rest.Size = New System.Drawing.Size(20, 20)
-        Me.btn_rest.TabIndex = 3
-        Me.btn_rest.UseVisualStyleBackColor = False
-        '
-        'btn_lunch
-        '
-        Me.btn_lunch.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.btn_lunch.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources._1433873769_play_arrow
-        Me.btn_lunch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_lunch.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control
-        Me.btn_lunch.FlatAppearance.BorderSize = 0
-        Me.btn_lunch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon
-        Me.btn_lunch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.btn_lunch.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_lunch.Location = New System.Drawing.Point(84, 20)
-        Me.btn_lunch.Name = "btn_lunch"
-        Me.btn_lunch.Size = New System.Drawing.Size(20, 20)
-        Me.btn_lunch.TabIndex = 3
-        Me.btn_lunch.UseVisualStyleBackColor = False
-        '
         'btn_close
         '
-        Me.btn_close.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.btn_close.BackColor = System.Drawing.Color.Transparent
         Me.btn_close.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources.no
         Me.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btn_close.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control
@@ -428,22 +419,6 @@ Partial Class mainform
         Me.btn_close.Size = New System.Drawing.Size(20, 20)
         Me.btn_close.TabIndex = 4
         Me.btn_close.UseVisualStyleBackColor = False
-        '
-        'btn_break
-        '
-        Me.btn_break.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.btn_break.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources._1433873769_play_arrow
-        Me.btn_break.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_break.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control
-        Me.btn_break.FlatAppearance.BorderSize = 0
-        Me.btn_break.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon
-        Me.btn_break.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.btn_break.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_break.Location = New System.Drawing.Point(83, 19)
-        Me.btn_break.Name = "btn_break"
-        Me.btn_break.Size = New System.Drawing.Size(20, 20)
-        Me.btn_break.TabIndex = 3
-        Me.btn_break.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
@@ -459,19 +434,22 @@ Partial Class mainform
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(303, 38)
+        Me.Label1.Location = New System.Drawing.Point(321, 38)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(33, 14)
         Me.Label1.TabIndex = 27
-        Me.Label1.Text = "V 1.0"
+        Me.Label1.Text = "V 1.4"
         '
         'mainform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(548, 263)
+        Me.BackColor = System.Drawing.Color.White
+        Me.BackgroundImage = Global.SIR_Toolkit.My.Resources.Resources.white_wallpaper_14
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(550, 280)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button9)
@@ -479,8 +457,6 @@ Partial Class mainform
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btn_feedback)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button1)
@@ -494,7 +470,7 @@ Partial Class mainform
         Me.ImeMode = System.Windows.Forms.ImeMode.[On]
         Me.Name = "mainform"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "CSS Toolkit"
+        Me.Text = "SIR Toolkit"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
@@ -528,8 +504,6 @@ Partial Class mainform
     Friend WithEvents Timer3 As System.Windows.Forms.Timer
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents Button7 As System.Windows.Forms.Button
-    Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Timer4 As System.Windows.Forms.Timer
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents btn_feedback As System.Windows.Forms.Button

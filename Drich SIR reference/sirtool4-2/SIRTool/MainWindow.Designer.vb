@@ -77,8 +77,6 @@ Partial Class MainWindow
         Me.m2 = New System.Windows.Forms.NumericUpDown()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
         Me.Button47 = New System.Windows.Forms.Button()
         Me.Button46 = New System.Windows.Forms.Button()
         Me.Button49 = New System.Windows.Forms.Button()
@@ -113,9 +111,6 @@ Partial Class MainWindow
         Me.DbPanel2 = New SIRTool.dbPanel()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.btn_TimerReset = New System.Windows.Forms.Button()
-        Me.btn_TimerStop = New System.Windows.Forms.Button()
-        Me.btn_TimerStart = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnPhonesNew = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -201,6 +196,9 @@ Partial Class MainWindow
         Me.Label10 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.RichTextBox3 = New System.Windows.Forms.RichTextBox()
+        Me.btn_TimerReset = New System.Windows.Forms.Button()
+        Me.btn_TimerStop = New System.Windows.Forms.Button()
+        Me.btn_TimerStart = New System.Windows.Forms.Button()
         Me.DbPanel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -277,6 +275,7 @@ Partial Class MainWindow
         Me.TabControl1.Controls.Add(Me.TabPage5)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabControl1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabControl1.Location = New System.Drawing.Point(0, 0)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -295,10 +294,10 @@ Partial Class MainWindow
         Me.TabPage1.Controls.Add(Me.DbPanel8)
         Me.TabPage1.Controls.Add(Me.DbPanel2)
         Me.TabPage1.Controls.Add(Me.btn_CasesofToday)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 23)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(347, 661)
+        Me.TabPage1.Size = New System.Drawing.Size(347, 660)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "SIR Tool - Phone"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -343,8 +342,9 @@ Partial Class MainWindow
         Me.btn_COPYSIR.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_COPYSIR.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_COPYSIR.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_COPYSIR.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_COPYSIR.ForeColor = System.Drawing.SystemColors.Window
-        Me.btn_COPYSIR.Location = New System.Drawing.Point(2, 616)
+        Me.btn_COPYSIR.Location = New System.Drawing.Point(2, 615)
         Me.btn_COPYSIR.Name = "btn_COPYSIR"
         Me.btn_COPYSIR.Size = New System.Drawing.Size(341, 38)
         Me.btn_COPYSIR.TabIndex = 74
@@ -360,7 +360,7 @@ Partial Class MainWindow
         Me.DbPanel5.Controls.Add(Me.DbPanel15)
         Me.DbPanel5.Location = New System.Drawing.Point(3, 514)
         Me.DbPanel5.Name = "DbPanel5"
-        Me.DbPanel5.Size = New System.Drawing.Size(337, 98)
+        Me.DbPanel5.Size = New System.Drawing.Size(337, 97)
         Me.DbPanel5.TabIndex = 73
         '
         'txtbxNotes
@@ -373,7 +373,7 @@ Partial Class MainWindow
         Me.txtbxNotes.Multiline = True
         Me.txtbxNotes.Name = "txtbxNotes"
         Me.txtbxNotes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtbxNotes.Size = New System.Drawing.Size(337, 49)
+        Me.txtbxNotes.Size = New System.Drawing.Size(337, 48)
         Me.txtbxNotes.TabIndex = 32
         '
         'DbPanel11
@@ -393,16 +393,17 @@ Partial Class MainWindow
         Me.cmbbx_SIRTitle.FormattingEnabled = True
         Me.cmbbx_SIRTitle.Location = New System.Drawing.Point(28, 1)
         Me.cmbbx_SIRTitle.Name = "cmbbx_SIRTitle"
-        Me.cmbbx_SIRTitle.Size = New System.Drawing.Size(308, 21)
+        Me.cmbbx_SIRTitle.Size = New System.Drawing.Size(308, 22)
         Me.cmbbx_SIRTitle.TabIndex = 2
         '
         'Label13
         '
         Me.Label13.AutoSize = True
         Me.Label13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label13.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.Location = New System.Drawing.Point(0, 5)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(30, 13)
+        Me.Label13.Size = New System.Drawing.Size(29, 14)
         Me.Label13.TabIndex = 1
         Me.Label13.Text = "Title:"
         '
@@ -423,10 +424,11 @@ Partial Class MainWindow
         '
         Me.Label43.AutoSize = True
         Me.Label43.BackColor = System.Drawing.Color.Transparent
+        Me.Label43.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label43.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label43.Location = New System.Drawing.Point(5, 5)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(56, 13)
+        Me.Label43.Size = New System.Drawing.Size(54, 14)
         Me.Label43.TabIndex = 67
         Me.Label43.Text = "SIR Notes"
         '
@@ -436,11 +438,11 @@ Partial Class MainWindow
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label9.Location = New System.Drawing.Point(244, 5)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(53, 12)
+        Me.Label9.Size = New System.Drawing.Size(61, 14)
         Me.Label9.TabIndex = 63
         Me.Label9.Text = "Edit Default"
         '
@@ -450,11 +452,11 @@ Partial Class MainWindow
         Me.lbl_SIRNew.AutoSize = True
         Me.lbl_SIRNew.BackColor = System.Drawing.Color.Transparent
         Me.lbl_SIRNew.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.lbl_SIRNew.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_SIRNew.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_SIRNew.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.lbl_SIRNew.Location = New System.Drawing.Point(302, 5)
         Me.lbl_SIRNew.Name = "lbl_SIRNew"
-        Me.lbl_SIRNew.Size = New System.Drawing.Size(27, 12)
+        Me.lbl_SIRNew.Size = New System.Drawing.Size(32, 14)
         Me.lbl_SIRNew.TabIndex = 63
         Me.lbl_SIRNew.Text = "Clear"
         '
@@ -470,6 +472,7 @@ Partial Class MainWindow
         'TabControl2
         '
         Me.TabControl2.Controls.Add(Me.TabPage3)
+        Me.TabControl2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabControl2.Location = New System.Drawing.Point(10, 29)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
@@ -493,10 +496,10 @@ Partial Class MainWindow
         Me.TabPage3.Controls.Add(Me.btn_RSh5)
         Me.TabPage3.Controls.Add(Me.btn_RSh2)
         Me.TabPage3.Controls.Add(Me.btn_RSh1)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 23)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(311, 121)
+        Me.TabPage3.Size = New System.Drawing.Size(311, 120)
         Me.TabPage3.TabIndex = 0
         Me.TabPage3.Text = "Resolution Templates"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -506,8 +509,9 @@ Partial Class MainWindow
         Me.btn_RSh8.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_RSh8.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_RSh8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_RSh8.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_RSh8.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_RSh8.Location = New System.Drawing.Point(208, 28)
+        Me.btn_RSh8.Location = New System.Drawing.Point(208, 27)
         Me.btn_RSh8.Name = "btn_RSh8"
         Me.btn_RSh8.Size = New System.Drawing.Size(100, 22)
         Me.btn_RSh8.TabIndex = 64
@@ -519,8 +523,9 @@ Partial Class MainWindow
         Me.btn_RSh11.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_RSh11.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_RSh11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_RSh11.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_RSh11.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_RSh11.Location = New System.Drawing.Point(106, 28)
+        Me.btn_RSh11.Location = New System.Drawing.Point(106, 27)
         Me.btn_RSh11.Name = "btn_RSh11"
         Me.btn_RSh11.Size = New System.Drawing.Size(100, 22)
         Me.btn_RSh11.TabIndex = 64
@@ -532,8 +537,9 @@ Partial Class MainWindow
         Me.btn_RSh7.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_RSh7.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_RSh7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_RSh7.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_RSh7.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_RSh7.Location = New System.Drawing.Point(208, 5)
+        Me.btn_RSh7.Location = New System.Drawing.Point(208, 4)
         Me.btn_RSh7.Name = "btn_RSh7"
         Me.btn_RSh7.Size = New System.Drawing.Size(100, 22)
         Me.btn_RSh7.TabIndex = 64
@@ -545,8 +551,9 @@ Partial Class MainWindow
         Me.Button50.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button50.BackColor = System.Drawing.Color.SteelBlue
         Me.Button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button50.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button50.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button50.Location = New System.Drawing.Point(106, 51)
+        Me.Button50.Location = New System.Drawing.Point(106, 50)
         Me.Button50.Name = "Button50"
         Me.Button50.Size = New System.Drawing.Size(100, 22)
         Me.Button50.TabIndex = 64
@@ -558,8 +565,9 @@ Partial Class MainWindow
         Me.Button53.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button53.BackColor = System.Drawing.Color.SteelBlue
         Me.Button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button53.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button53.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button53.Location = New System.Drawing.Point(4, 97)
+        Me.Button53.Location = New System.Drawing.Point(4, 96)
         Me.Button53.Name = "Button53"
         Me.Button53.Size = New System.Drawing.Size(100, 22)
         Me.Button53.TabIndex = 64
@@ -571,8 +579,9 @@ Partial Class MainWindow
         Me.btn_RSh10.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_RSh10.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_RSh10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_RSh10.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_RSh10.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_RSh10.Location = New System.Drawing.Point(4, 74)
+        Me.btn_RSh10.Location = New System.Drawing.Point(4, 73)
         Me.btn_RSh10.Name = "btn_RSh10"
         Me.btn_RSh10.Size = New System.Drawing.Size(100, 22)
         Me.btn_RSh10.TabIndex = 64
@@ -584,8 +593,9 @@ Partial Class MainWindow
         Me.btn_RSh4.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_RSh4.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_RSh4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_RSh4.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_RSh4.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_RSh4.Location = New System.Drawing.Point(106, 5)
+        Me.btn_RSh4.Location = New System.Drawing.Point(106, 4)
         Me.btn_RSh4.Name = "btn_RSh4"
         Me.btn_RSh4.Size = New System.Drawing.Size(100, 22)
         Me.btn_RSh4.TabIndex = 64
@@ -597,8 +607,9 @@ Partial Class MainWindow
         Me.btn_RSh3.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_RSh3.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_RSh3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_RSh3.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_RSh3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_RSh3.Location = New System.Drawing.Point(4, 51)
+        Me.btn_RSh3.Location = New System.Drawing.Point(4, 50)
         Me.btn_RSh3.Name = "btn_RSh3"
         Me.btn_RSh3.Size = New System.Drawing.Size(100, 22)
         Me.btn_RSh3.TabIndex = 64
@@ -610,8 +621,9 @@ Partial Class MainWindow
         Me.Button52.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button52.BackColor = System.Drawing.Color.DarkCyan
         Me.Button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button52.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button52.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button52.Location = New System.Drawing.Point(208, 97)
+        Me.Button52.Location = New System.Drawing.Point(208, 96)
         Me.Button52.Name = "Button52"
         Me.Button52.Size = New System.Drawing.Size(100, 22)
         Me.Button52.TabIndex = 64
@@ -623,8 +635,9 @@ Partial Class MainWindow
         Me.Button17.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button17.BackColor = System.Drawing.Color.SteelBlue
         Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button17.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button17.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button17.Location = New System.Drawing.Point(208, 51)
+        Me.Button17.Location = New System.Drawing.Point(208, 50)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(100, 22)
         Me.Button17.TabIndex = 64
@@ -636,8 +649,9 @@ Partial Class MainWindow
         Me.btn_RSh9.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_RSh9.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_RSh9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_RSh9.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_RSh9.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_RSh9.Location = New System.Drawing.Point(208, 74)
+        Me.btn_RSh9.Location = New System.Drawing.Point(208, 73)
         Me.btn_RSh9.Name = "btn_RSh9"
         Me.btn_RSh9.Size = New System.Drawing.Size(100, 22)
         Me.btn_RSh9.TabIndex = 64
@@ -649,8 +663,9 @@ Partial Class MainWindow
         Me.btn_RSh6.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_RSh6.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_RSh6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_RSh6.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_RSh6.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_RSh6.Location = New System.Drawing.Point(106, 74)
+        Me.btn_RSh6.Location = New System.Drawing.Point(106, 73)
         Me.btn_RSh6.Name = "btn_RSh6"
         Me.btn_RSh6.Size = New System.Drawing.Size(100, 22)
         Me.btn_RSh6.TabIndex = 64
@@ -662,8 +677,9 @@ Partial Class MainWindow
         Me.btn_RSh5.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_RSh5.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_RSh5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_RSh5.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_RSh5.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_RSh5.Location = New System.Drawing.Point(106, 97)
+        Me.btn_RSh5.Location = New System.Drawing.Point(106, 96)
         Me.btn_RSh5.Name = "btn_RSh5"
         Me.btn_RSh5.Size = New System.Drawing.Size(100, 22)
         Me.btn_RSh5.TabIndex = 64
@@ -675,8 +691,9 @@ Partial Class MainWindow
         Me.btn_RSh2.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_RSh2.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_RSh2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_RSh2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_RSh2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_RSh2.Location = New System.Drawing.Point(4, 28)
+        Me.btn_RSh2.Location = New System.Drawing.Point(4, 27)
         Me.btn_RSh2.Name = "btn_RSh2"
         Me.btn_RSh2.Size = New System.Drawing.Size(100, 22)
         Me.btn_RSh2.TabIndex = 64
@@ -688,8 +705,9 @@ Partial Class MainWindow
         Me.btn_RSh1.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.btn_RSh1.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_RSh1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_RSh1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_RSh1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btn_RSh1.Location = New System.Drawing.Point(4, 5)
+        Me.btn_RSh1.Location = New System.Drawing.Point(4, 4)
         Me.btn_RSh1.Name = "btn_RSh1"
         Me.btn_RSh1.Size = New System.Drawing.Size(100, 22)
         Me.btn_RSh1.TabIndex = 64
@@ -712,10 +730,11 @@ Partial Class MainWindow
         '
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
+        Me.Label11.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label11.Location = New System.Drawing.Point(5, 5)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(109, 13)
+        Me.Label11.Size = New System.Drawing.Size(108, 14)
         Me.Label11.TabIndex = 67
         Me.Label11.Text = "Resolution Templates"
         '
@@ -725,11 +744,11 @@ Partial Class MainWindow
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label8.Location = New System.Drawing.Point(264, 5)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(66, 12)
+        Me.Label8.Size = New System.Drawing.Size(75, 14)
         Me.Label8.TabIndex = 63
         Me.Label8.Text = "Edit Templates"
         '
@@ -741,8 +760,6 @@ Partial Class MainWindow
         Me.DbPanel8.Controls.Add(Me.m2)
         Me.DbPanel8.Controls.Add(Me.Label30)
         Me.DbPanel8.Controls.Add(Me.Label18)
-        Me.DbPanel8.Controls.Add(Me.Button19)
-        Me.DbPanel8.Controls.Add(Me.Button18)
         Me.DbPanel8.Controls.Add(Me.Button47)
         Me.DbPanel8.Controls.Add(Me.Button46)
         Me.DbPanel8.Controls.Add(Me.Button49)
@@ -786,10 +803,11 @@ Partial Class MainWindow
         'rdbtnSSTS
         '
         Me.rdbtnSSTS.AutoSize = True
+        Me.rdbtnSSTS.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rdbtnSSTS.ForeColor = System.Drawing.Color.Black
         Me.rdbtnSSTS.Location = New System.Drawing.Point(5, 10)
         Me.rdbtnSSTS.Name = "rdbtnSSTS"
-        Me.rdbtnSSTS.Size = New System.Drawing.Size(39, 17)
+        Me.rdbtnSSTS.Size = New System.Drawing.Size(38, 18)
         Me.rdbtnSSTS.TabIndex = 0
         Me.rdbtnSSTS.TabStop = True
         Me.rdbtnSSTS.Text = "TS"
@@ -798,10 +816,11 @@ Partial Class MainWindow
         'rdbtnSSPOP
         '
         Me.rdbtnSSPOP.AutoSize = True
+        Me.rdbtnSSPOP.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rdbtnSSPOP.ForeColor = System.Drawing.Color.Black
         Me.rdbtnSSPOP.Location = New System.Drawing.Point(84, 10)
         Me.rdbtnSSPOP.Name = "rdbtnSSPOP"
-        Me.rdbtnSSPOP.Size = New System.Drawing.Size(47, 17)
+        Me.rdbtnSSPOP.Size = New System.Drawing.Size(45, 18)
         Me.rdbtnSSPOP.TabIndex = 0
         Me.rdbtnSSPOP.TabStop = True
         Me.rdbtnSSPOP.Text = "POP"
@@ -810,10 +829,11 @@ Partial Class MainWindow
         'rdbtnSSCS
         '
         Me.rdbtnSSCS.AutoSize = True
+        Me.rdbtnSSCS.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rdbtnSSCS.ForeColor = System.Drawing.Color.Black
         Me.rdbtnSSCS.Location = New System.Drawing.Point(44, 10)
         Me.rdbtnSSCS.Name = "rdbtnSSCS"
-        Me.rdbtnSSCS.Size = New System.Drawing.Size(39, 17)
+        Me.rdbtnSSCS.Size = New System.Drawing.Size(39, 18)
         Me.rdbtnSSCS.TabIndex = 0
         Me.rdbtnSSCS.TabStop = True
         Me.rdbtnSSCS.Text = "CS"
@@ -844,6 +864,7 @@ Partial Class MainWindow
         '
         'm2
         '
+        Me.m2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.m2.Location = New System.Drawing.Point(216, 200)
         Me.m2.Name = "m2"
         Me.m2.Size = New System.Drawing.Size(52, 20)
@@ -855,7 +876,7 @@ Partial Class MainWindow
         Me.Label30.AutoSize = True
         Me.Label30.Location = New System.Drawing.Point(172, 193)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(13, 13)
+        Me.Label30.Size = New System.Drawing.Size(13, 14)
         Me.Label30.TabIndex = 71
         Me.Label30.Text = "0"
         Me.Label30.Visible = False
@@ -864,47 +885,20 @@ Partial Class MainWindow
         '
         Me.Label18.AutoSize = True
         Me.Label18.BackColor = System.Drawing.Color.Transparent
+        Me.Label18.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label18.Location = New System.Drawing.Point(11, 205)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(62, 13)
+        Me.Label18.Size = New System.Drawing.Size(59, 14)
         Me.Label18.TabIndex = 11
         Me.Label18.Text = "Hold/ACW:"
-        '
-        'Button19
-        '
-        Me.Button19.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button19.BackColor = System.Drawing.Color.SteelBlue
-        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button19.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button19.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button19.Location = New System.Drawing.Point(296, 60)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(35, 23)
-        Me.Button19.TabIndex = 11
-        Me.Button19.Text = "DR"
-        Me.Button19.UseVisualStyleBackColor = False
-        '
-        'Button18
-        '
-        Me.Button18.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Button18.BackColor = System.Drawing.Color.Firebrick
-        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button18.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button18.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button18.Location = New System.Drawing.Point(262, 60)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(34, 23)
-        Me.Button18.TabIndex = 11
-        Me.Button18.Text = "TSE"
-        Me.Button18.UseVisualStyleBackColor = False
         '
         'Button47
         '
         Me.Button47.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Button47.BackColor = System.Drawing.Color.SteelBlue
         Me.Button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button47.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button47.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button47.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button47.Location = New System.Drawing.Point(296, 86)
         Me.Button47.Name = "Button47"
@@ -918,7 +912,7 @@ Partial Class MainWindow
         Me.Button46.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Button46.BackColor = System.Drawing.Color.Firebrick
         Me.Button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button46.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button46.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button46.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button46.Location = New System.Drawing.Point(262, 86)
         Me.Button46.Name = "Button46"
@@ -932,7 +926,7 @@ Partial Class MainWindow
         Me.Button49.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Button49.BackColor = System.Drawing.Color.SteelBlue
         Me.Button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button49.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button49.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button49.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button49.Location = New System.Drawing.Point(296, 138)
         Me.Button49.Name = "Button49"
@@ -946,7 +940,7 @@ Partial Class MainWindow
         Me.Button48.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Button48.BackColor = System.Drawing.Color.Firebrick
         Me.Button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button48.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button48.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button48.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button48.Location = New System.Drawing.Point(262, 138)
         Me.Button48.Name = "Button48"
@@ -960,7 +954,7 @@ Partial Class MainWindow
         Me.Button45.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Button45.BackColor = System.Drawing.Color.SteelBlue
         Me.Button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button45.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button45.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button45.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button45.Location = New System.Drawing.Point(296, 112)
         Me.Button45.Name = "Button45"
@@ -974,7 +968,7 @@ Partial Class MainWindow
         Me.Button44.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Button44.BackColor = System.Drawing.Color.Firebrick
         Me.Button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button44.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button44.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button44.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button44.Location = New System.Drawing.Point(262, 112)
         Me.Button44.Name = "Button44"
@@ -988,7 +982,7 @@ Partial Class MainWindow
         Me.Label21.AutoSize = True
         Me.Label21.Location = New System.Drawing.Point(146, 193)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(13, 13)
+        Me.Label21.Size = New System.Drawing.Size(13, 14)
         Me.Label21.TabIndex = 72
         Me.Label21.Text = "0"
         Me.Label21.Visible = False
@@ -1018,6 +1012,7 @@ Partial Class MainWindow
         Me.btn_Hold.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.btn_Hold.BackColor = System.Drawing.Color.SeaGreen
         Me.btn_Hold.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_Hold.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_Hold.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btn_Hold.Location = New System.Drawing.Point(273, 198)
         Me.btn_Hold.Name = "btn_Hold"
@@ -1077,10 +1072,11 @@ Partial Class MainWindow
         '
         Me.Label25.AutoSize = True
         Me.Label25.BackColor = System.Drawing.Color.Transparent
+        Me.Label25.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label25.Location = New System.Drawing.Point(5, 5)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(93, 13)
+        Me.Label25.Size = New System.Drawing.Size(91, 14)
         Me.Label25.TabIndex = 67
         Me.Label25.Text = "Entitlement Check"
         '
@@ -1098,10 +1094,11 @@ Partial Class MainWindow
         'rdbtnPSN
         '
         Me.rdbtnPSN.AutoSize = True
+        Me.rdbtnPSN.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rdbtnPSN.ForeColor = System.Drawing.Color.Black
         Me.rdbtnPSN.Location = New System.Drawing.Point(79, 12)
         Me.rdbtnPSN.Name = "rdbtnPSN"
-        Me.rdbtnPSN.Size = New System.Drawing.Size(39, 17)
+        Me.rdbtnPSN.Size = New System.Drawing.Size(38, 18)
         Me.rdbtnPSN.TabIndex = 0
         Me.rdbtnPSN.TabStop = True
         Me.rdbtnPSN.Text = "No"
@@ -1110,10 +1107,11 @@ Partial Class MainWindow
         'rdbtnPSY
         '
         Me.rdbtnPSY.AutoSize = True
+        Me.rdbtnPSY.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rdbtnPSY.ForeColor = System.Drawing.Color.Black
         Me.rdbtnPSY.Location = New System.Drawing.Point(38, 12)
         Me.rdbtnPSY.Name = "rdbtnPSY"
-        Me.rdbtnPSY.Size = New System.Drawing.Size(43, 17)
+        Me.rdbtnPSY.Size = New System.Drawing.Size(44, 18)
         Me.rdbtnPSY.TabIndex = 0
         Me.rdbtnPSY.TabStop = True
         Me.rdbtnPSY.Text = "Yes"
@@ -1123,10 +1121,11 @@ Partial Class MainWindow
         '
         Me.Label15.AutoSize = True
         Me.Label15.BackColor = System.Drawing.Color.Transparent
+        Me.Label15.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label15.Location = New System.Drawing.Point(10, 14)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(24, 13)
+        Me.Label15.Size = New System.Drawing.Size(23, 14)
         Me.Label15.TabIndex = 11
         Me.Label15.Text = "PS:"
         '
@@ -1144,10 +1143,11 @@ Partial Class MainWindow
         'rdbtnFCN
         '
         Me.rdbtnFCN.AutoSize = True
+        Me.rdbtnFCN.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rdbtnFCN.ForeColor = System.Drawing.Color.Black
         Me.rdbtnFCN.Location = New System.Drawing.Point(129, 12)
         Me.rdbtnFCN.Name = "rdbtnFCN"
-        Me.rdbtnFCN.Size = New System.Drawing.Size(39, 17)
+        Me.rdbtnFCN.Size = New System.Drawing.Size(38, 18)
         Me.rdbtnFCN.TabIndex = 0
         Me.rdbtnFCN.TabStop = True
         Me.rdbtnFCN.Text = "No"
@@ -1156,10 +1156,11 @@ Partial Class MainWindow
         'rdbtnFCY
         '
         Me.rdbtnFCY.AutoSize = True
+        Me.rdbtnFCY.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rdbtnFCY.ForeColor = System.Drawing.Color.Black
         Me.rdbtnFCY.Location = New System.Drawing.Point(82, 12)
         Me.rdbtnFCY.Name = "rdbtnFCY"
-        Me.rdbtnFCY.Size = New System.Drawing.Size(43, 17)
+        Me.rdbtnFCY.Size = New System.Drawing.Size(44, 18)
         Me.rdbtnFCY.TabIndex = 0
         Me.rdbtnFCY.TabStop = True
         Me.rdbtnFCY.Text = "Yes"
@@ -1169,10 +1170,11 @@ Partial Class MainWindow
         '
         Me.Label14.AutoSize = True
         Me.Label14.BackColor = System.Drawing.Color.Transparent
+        Me.Label14.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label14.Location = New System.Drawing.Point(8, 14)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(69, 13)
+        Me.Label14.Size = New System.Drawing.Size(71, 14)
         Me.Label14.TabIndex = 11
         Me.Label14.Text = "First Contact:"
         '
@@ -1180,10 +1182,11 @@ Partial Class MainWindow
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label5.Location = New System.Drawing.Point(8, 117)
+        Me.Label5.Location = New System.Drawing.Point(4, 117)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(76, 13)
+        Me.Label5.Size = New System.Drawing.Size(77, 14)
         Me.Label5.TabIndex = 22
         Me.Label5.Text = "Serial Number:"
         '
@@ -1191,10 +1194,11 @@ Partial Class MainWindow
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label4.Location = New System.Drawing.Point(8, 143)
+        Me.Label4.Location = New System.Drawing.Point(3, 143)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(76, 13)
+        Me.Label4.Size = New System.Drawing.Size(78, 14)
         Me.Label4.TabIndex = 23
         Me.Label4.Text = "Order Number:"
         '
@@ -1202,10 +1206,11 @@ Partial Class MainWindow
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label3.Location = New System.Drawing.Point(8, 91)
+        Me.Label3.Location = New System.Drawing.Point(4, 91)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(76, 13)
+        Me.Label3.Size = New System.Drawing.Size(78, 14)
         Me.Label3.TabIndex = 24
         Me.Label3.Text = "Email Address:"
         '
@@ -1237,10 +1242,11 @@ Partial Class MainWindow
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label2.Location = New System.Drawing.Point(8, 65)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(67, 13)
+        Me.Label2.Size = New System.Drawing.Size(66, 14)
         Me.Label2.TabIndex = 25
         Me.Label2.Text = "Client Name:"
         '
@@ -1249,7 +1255,7 @@ Partial Class MainWindow
         Me.txtbxClientname.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxClientname.Location = New System.Drawing.Point(84, 62)
         Me.txtbxClientname.Name = "txtbxClientname"
-        Me.txtbxClientname.Size = New System.Drawing.Size(176, 20)
+        Me.txtbxClientname.Size = New System.Drawing.Size(246, 20)
         Me.txtbxClientname.TabIndex = 21
         '
         'DbPanel2
@@ -1272,10 +1278,10 @@ Partial Class MainWindow
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(255, 5)
+        Me.CheckBox1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Location = New System.Drawing.Point(237, 6)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(85, 16)
+        Me.CheckBox1.Size = New System.Drawing.Size(99, 18)
         Me.CheckBox1.TabIndex = 22
         Me.CheckBox1.Text = "Always on Top"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -1283,65 +1289,23 @@ Partial Class MainWindow
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label16.Location = New System.Drawing.Point(230, 28)
+        Me.Label16.Location = New System.Drawing.Point(251, 32)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(103, 21)
+        Me.Label16.Size = New System.Drawing.Size(83, 16)
         Me.Label16.TabIndex = 17
         Me.Label16.Text = "00:00:00:000"
-        '
-        'btn_TimerReset
-        '
-        Me.btn_TimerReset.BackColor = System.Drawing.Color.Transparent
-        Me.btn_TimerReset.BackgroundImage = Global.SIRTool.My.Resources.Resources.refresh
-        Me.btn_TimerReset.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_TimerReset.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btn_TimerReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_TimerReset.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.btn_TimerReset.Location = New System.Drawing.Point(300, 48)
-        Me.btn_TimerReset.Name = "btn_TimerReset"
-        Me.btn_TimerReset.Size = New System.Drawing.Size(15, 15)
-        Me.btn_TimerReset.TabIndex = 18
-        Me.btn_TimerReset.UseVisualStyleBackColor = False
-        '
-        'btn_TimerStop
-        '
-        Me.btn_TimerStop.BackColor = System.Drawing.Color.Transparent
-        Me.btn_TimerStop.BackgroundImage = Global.SIRTool.My.Resources.Resources.pause
-        Me.btn_TimerStop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_TimerStop.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btn_TimerStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_TimerStop.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.btn_TimerStop.Location = New System.Drawing.Point(275, 48)
-        Me.btn_TimerStop.Name = "btn_TimerStop"
-        Me.btn_TimerStop.Size = New System.Drawing.Size(15, 15)
-        Me.btn_TimerStop.TabIndex = 19
-        Me.btn_TimerStop.UseVisualStyleBackColor = False
-        '
-        'btn_TimerStart
-        '
-        Me.btn_TimerStart.BackColor = System.Drawing.Color.Transparent
-        Me.btn_TimerStart.BackgroundImage = Global.SIRTool.My.Resources.Resources.play
-        Me.btn_TimerStart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_TimerStart.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btn_TimerStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_TimerStart.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.btn_TimerStart.Location = New System.Drawing.Point(252, 48)
-        Me.btn_TimerStart.Name = "btn_TimerStart"
-        Me.btn_TimerStart.Size = New System.Drawing.Size(15, 15)
-        Me.btn_TimerStart.TabIndex = 20
-        Me.btn_TimerStart.UseVisualStyleBackColor = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label1.Location = New System.Drawing.Point(3, 6)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(85, 24)
+        Me.Label1.Size = New System.Drawing.Size(84, 22)
         Me.Label1.TabIndex = 16
         Me.Label1.Text = "SIR Tool"
         '
@@ -1350,6 +1314,7 @@ Partial Class MainWindow
         Me.btnPhonesNew.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.btnPhonesNew.BackColor = System.Drawing.Color.Firebrick
         Me.btnPhonesNew.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPhonesNew.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPhonesNew.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.btnPhonesNew.Location = New System.Drawing.Point(2, 37)
         Me.btnPhonesNew.Name = "btnPhonesNew"
@@ -1363,12 +1328,13 @@ Partial Class MainWindow
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.Firebrick
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button1.Location = New System.Drawing.Point(133, 37)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(65, 26)
         Me.Button1.TabIndex = 11
-        Me.Button1.Text = "Open"
+        Me.Button1.Text = "View"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'btnPhonesSave
@@ -1376,6 +1342,7 @@ Partial Class MainWindow
         Me.btnPhonesSave.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.btnPhonesSave.BackColor = System.Drawing.Color.Firebrick
         Me.btnPhonesSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPhonesSave.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPhonesSave.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.btnPhonesSave.Location = New System.Drawing.Point(68, 37)
         Me.btnPhonesSave.Name = "btnPhonesSave"
@@ -1388,6 +1355,7 @@ Partial Class MainWindow
         '
         Me.btn_CasesofToday.BackColor = System.Drawing.Color.SteelBlue
         Me.btn_CasesofToday.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_CasesofToday.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_CasesofToday.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.btn_CasesofToday.Location = New System.Drawing.Point(240, 77)
         Me.btn_CasesofToday.Name = "btn_CasesofToday"
@@ -1399,10 +1367,10 @@ Partial Class MainWindow
         'TabPage5
         '
         Me.TabPage5.Controls.Add(Me.DbPanel6)
-        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 23)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(347, 661)
+        Me.TabPage5.Size = New System.Drawing.Size(347, 660)
         Me.TabPage5.TabIndex = 2
         Me.TabPage5.Text = "SIR Tool - Online"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -1414,7 +1382,7 @@ Partial Class MainWindow
         Me.DbPanel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DbPanel6.Location = New System.Drawing.Point(3, 3)
         Me.DbPanel6.Name = "DbPanel6"
-        Me.DbPanel6.Size = New System.Drawing.Size(341, 655)
+        Me.DbPanel6.Size = New System.Drawing.Size(341, 654)
         Me.DbPanel6.TabIndex = 0
         '
         'TabControl3
@@ -1422,10 +1390,11 @@ Partial Class MainWindow
         Me.TabControl3.Controls.Add(Me.TabPage7)
         Me.TabControl3.Controls.Add(Me.TabPage6)
         Me.TabControl3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabControl3.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabControl3.Location = New System.Drawing.Point(0, 43)
         Me.TabControl3.Name = "TabControl3"
         Me.TabControl3.SelectedIndex = 0
-        Me.TabControl3.Size = New System.Drawing.Size(341, 612)
+        Me.TabControl3.Size = New System.Drawing.Size(341, 611)
         Me.TabControl3.TabIndex = 0
         '
         'TabPage7
@@ -1449,10 +1418,10 @@ Partial Class MainWindow
         Me.TabPage7.Controls.Add(Me.DbPanel12)
         Me.TabPage7.Controls.Add(Me.DbPanel7)
         Me.TabPage7.Controls.Add(Me.TabControl4)
-        Me.TabPage7.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 23)
         Me.TabPage7.Name = "TabPage7"
         Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage7.Size = New System.Drawing.Size(333, 586)
+        Me.TabPage7.Size = New System.Drawing.Size(333, 584)
         Me.TabPage7.TabIndex = 1
         Me.TabPage7.Text = "Email"
         Me.TabPage7.UseVisualStyleBackColor = True
@@ -1460,14 +1429,16 @@ Partial Class MainWindow
         'Label38
         '
         Me.Label38.AutoSize = True
+        Me.Label38.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label38.Location = New System.Drawing.Point(209, 13)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(66, 13)
+        Me.Label38.Size = New System.Drawing.Size(65, 14)
         Me.Label38.TabIndex = 86
         Me.Label38.Text = "Email Count:"
         '
         'NumericUpDown2
         '
+        Me.NumericUpDown2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NumericUpDown2.Location = New System.Drawing.Point(281, 10)
         Me.NumericUpDown2.Name = "NumericUpDown2"
         Me.NumericUpDown2.Size = New System.Drawing.Size(44, 20)
@@ -1477,6 +1448,7 @@ Partial Class MainWindow
         '
         Me.Button65.BackColor = System.Drawing.Color.Firebrick
         Me.Button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button65.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button65.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button65.Location = New System.Drawing.Point(136, 6)
         Me.Button65.Name = "Button65"
@@ -1490,7 +1462,7 @@ Partial Class MainWindow
         Me.Label26.AutoSize = True
         Me.Label26.Location = New System.Drawing.Point(248, 13)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(13, 13)
+        Me.Label26.Size = New System.Drawing.Size(13, 14)
         Me.Label26.TabIndex = 82
         Me.Label26.Text = "0"
         Me.Label26.Visible = False
@@ -1500,7 +1472,7 @@ Partial Class MainWindow
         Me.Label33.AutoSize = True
         Me.Label33.Location = New System.Drawing.Point(222, 13)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(13, 13)
+        Me.Label33.Size = New System.Drawing.Size(13, 14)
         Me.Label33.TabIndex = 83
         Me.Label33.Text = "0"
         Me.Label33.Visible = False
@@ -1530,6 +1502,7 @@ Partial Class MainWindow
         Me.Button64.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Button64.BackColor = System.Drawing.Color.SeaGreen
         Me.Button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button64.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button64.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button64.Location = New System.Drawing.Point(268, 36)
         Me.Button64.Name = "Button64"
@@ -1554,11 +1527,11 @@ Partial Class MainWindow
         '
         Me.Label36.AutoSize = True
         Me.Label36.BackColor = System.Drawing.Color.Transparent
-        Me.Label36.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label36.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label36.Location = New System.Drawing.Point(223, 42)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(18, 16)
+        Me.Label36.Size = New System.Drawing.Size(15, 14)
         Me.Label36.TabIndex = 78
         Me.Label36.Text = "m"
         '
@@ -1580,7 +1553,7 @@ Partial Class MainWindow
         Me.Button59.BackColor = System.Drawing.Color.SteelBlue
         Me.Button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button59.ForeColor = System.Drawing.SystemColors.Window
-        Me.Button59.Location = New System.Drawing.Point(-4, 548)
+        Me.Button59.Location = New System.Drawing.Point(-4, 546)
         Me.Button59.Name = "Button59"
         Me.Button59.Size = New System.Drawing.Size(341, 38)
         Me.Button59.TabIndex = 75
@@ -1591,6 +1564,7 @@ Partial Class MainWindow
         '
         Me.Button63.BackColor = System.Drawing.Color.Firebrick
         Me.Button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button63.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button63.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button63.Location = New System.Drawing.Point(70, 6)
         Me.Button63.Name = "Button63"
@@ -1603,6 +1577,7 @@ Partial Class MainWindow
         '
         Me.Button61.BackColor = System.Drawing.Color.Firebrick
         Me.Button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button61.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button61.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button61.Location = New System.Drawing.Point(3, 6)
         Me.Button61.Name = "Button61"
@@ -1613,6 +1588,7 @@ Partial Class MainWindow
         '
         'TextBox2
         '
+        Me.TextBox2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(34, 39)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(168, 20)
@@ -1621,9 +1597,10 @@ Partial Class MainWindow
         'Label24
         '
         Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.Location = New System.Drawing.Point(4, 42)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(25, 13)
+        Me.Label24.Size = New System.Drawing.Size(24, 14)
         Me.Label24.TabIndex = 69
         Me.Label24.Text = "SR:"
         '
@@ -1636,7 +1613,7 @@ Partial Class MainWindow
         Me.DbPanel12.Controls.Add(Me.DbPanel13)
         Me.DbPanel12.Location = New System.Drawing.Point(1, 264)
         Me.DbPanel12.Name = "DbPanel12"
-        Me.DbPanel12.Size = New System.Drawing.Size(329, 278)
+        Me.DbPanel12.Size = New System.Drawing.Size(329, 276)
         Me.DbPanel12.TabIndex = 68
         '
         'TextBox1
@@ -1649,7 +1626,7 @@ Partial Class MainWindow
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox1.Size = New System.Drawing.Size(329, 224)
+        Me.TextBox1.Size = New System.Drawing.Size(329, 222)
         Me.TextBox1.TabIndex = 35
         '
         'DbPanel14
@@ -1669,16 +1646,17 @@ Partial Class MainWindow
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Location = New System.Drawing.Point(35, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(292, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(292, 22)
         Me.ComboBox1.TabIndex = 2
         '
         'Label23
         '
         Me.Label23.AutoSize = True
         Me.Label23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label23.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.Location = New System.Drawing.Point(4, 8)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(30, 13)
+        Me.Label23.Size = New System.Drawing.Size(29, 14)
         Me.Label23.TabIndex = 1
         Me.Label23.Text = "Title:"
         '
@@ -1699,10 +1677,11 @@ Partial Class MainWindow
         '
         Me.Label19.AutoSize = True
         Me.Label19.BackColor = System.Drawing.Color.Transparent
+        Me.Label19.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label19.Location = New System.Drawing.Point(5, 5)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(56, 13)
+        Me.Label19.Size = New System.Drawing.Size(54, 14)
         Me.Label19.TabIndex = 67
         Me.Label19.Text = "SIR Notes"
         '
@@ -1712,11 +1691,11 @@ Partial Class MainWindow
         Me.Label20.AutoSize = True
         Me.Label20.BackColor = System.Drawing.Color.Transparent
         Me.Label20.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label20.Location = New System.Drawing.Point(240, 5)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(53, 12)
+        Me.Label20.Size = New System.Drawing.Size(61, 14)
         Me.Label20.TabIndex = 63
         Me.Label20.Text = "Edit Default"
         '
@@ -1726,11 +1705,11 @@ Partial Class MainWindow
         Me.Label22.AutoSize = True
         Me.Label22.BackColor = System.Drawing.Color.Transparent
         Me.Label22.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label22.Location = New System.Drawing.Point(297, 5)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(27, 12)
+        Me.Label22.Size = New System.Drawing.Size(32, 14)
         Me.Label22.TabIndex = 63
         Me.Label22.Text = "Clear"
         '
@@ -1751,7 +1730,7 @@ Partial Class MainWindow
         Me.Label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label12.Location = New System.Drawing.Point(5, 5)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(56, 13)
+        Me.Label12.Size = New System.Drawing.Size(55, 14)
         Me.Label12.TabIndex = 67
         Me.Label12.Text = "Templates"
         '
@@ -1759,6 +1738,7 @@ Partial Class MainWindow
         '
         Me.TabControl4.Controls.Add(Me.TabPage8)
         Me.TabControl4.Controls.Add(Me.TabPage9)
+        Me.TabControl4.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabControl4.Location = New System.Drawing.Point(6, 107)
         Me.TabControl4.Name = "TabControl4"
         Me.TabControl4.SelectedIndex = 0
@@ -1782,10 +1762,10 @@ Partial Class MainWindow
         Me.TabPage8.Controls.Add(Me.Button32)
         Me.TabPage8.Controls.Add(Me.Button33)
         Me.TabPage8.Controls.Add(Me.Button34)
-        Me.TabPage8.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 23)
         Me.TabPage8.Name = "TabPage8"
         Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage8.Size = New System.Drawing.Size(311, 121)
+        Me.TabPage8.Size = New System.Drawing.Size(311, 120)
         Me.TabPage8.TabIndex = 0
         Me.TabPage8.Text = "R Templates"
         Me.TabPage8.UseVisualStyleBackColor = True
@@ -1795,8 +1775,9 @@ Partial Class MainWindow
         Me.Button20.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button20.BackColor = System.Drawing.Color.SteelBlue
         Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button20.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button20.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button20.Location = New System.Drawing.Point(208, 28)
+        Me.Button20.Location = New System.Drawing.Point(208, 27)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(100, 22)
         Me.Button20.TabIndex = 64
@@ -1808,8 +1789,9 @@ Partial Class MainWindow
         Me.Button21.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button21.BackColor = System.Drawing.Color.SteelBlue
         Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button21.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button21.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button21.Location = New System.Drawing.Point(106, 28)
+        Me.Button21.Location = New System.Drawing.Point(106, 27)
         Me.Button21.Name = "Button21"
         Me.Button21.Size = New System.Drawing.Size(100, 22)
         Me.Button21.TabIndex = 64
@@ -1821,8 +1803,9 @@ Partial Class MainWindow
         Me.Button22.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button22.BackColor = System.Drawing.Color.SteelBlue
         Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button22.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button22.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button22.Location = New System.Drawing.Point(208, 5)
+        Me.Button22.Location = New System.Drawing.Point(208, 4)
         Me.Button22.Name = "Button22"
         Me.Button22.Size = New System.Drawing.Size(100, 22)
         Me.Button22.TabIndex = 64
@@ -1834,8 +1817,9 @@ Partial Class MainWindow
         Me.Button23.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button23.BackColor = System.Drawing.Color.SteelBlue
         Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button23.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button23.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button23.Location = New System.Drawing.Point(106, 51)
+        Me.Button23.Location = New System.Drawing.Point(106, 50)
         Me.Button23.Name = "Button23"
         Me.Button23.Size = New System.Drawing.Size(100, 22)
         Me.Button23.TabIndex = 64
@@ -1847,8 +1831,9 @@ Partial Class MainWindow
         Me.Button24.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button24.BackColor = System.Drawing.Color.SteelBlue
         Me.Button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button24.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button24.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button24.Location = New System.Drawing.Point(4, 97)
+        Me.Button24.Location = New System.Drawing.Point(4, 96)
         Me.Button24.Name = "Button24"
         Me.Button24.Size = New System.Drawing.Size(100, 22)
         Me.Button24.TabIndex = 64
@@ -1860,8 +1845,9 @@ Partial Class MainWindow
         Me.Button25.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button25.BackColor = System.Drawing.Color.SteelBlue
         Me.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button25.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button25.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button25.Location = New System.Drawing.Point(4, 74)
+        Me.Button25.Location = New System.Drawing.Point(4, 73)
         Me.Button25.Name = "Button25"
         Me.Button25.Size = New System.Drawing.Size(100, 22)
         Me.Button25.TabIndex = 64
@@ -1873,8 +1859,9 @@ Partial Class MainWindow
         Me.Button26.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button26.BackColor = System.Drawing.Color.SteelBlue
         Me.Button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button26.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button26.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button26.Location = New System.Drawing.Point(106, 5)
+        Me.Button26.Location = New System.Drawing.Point(106, 4)
         Me.Button26.Name = "Button26"
         Me.Button26.Size = New System.Drawing.Size(100, 22)
         Me.Button26.TabIndex = 64
@@ -1886,8 +1873,9 @@ Partial Class MainWindow
         Me.Button27.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button27.BackColor = System.Drawing.Color.SteelBlue
         Me.Button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button27.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button27.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button27.Location = New System.Drawing.Point(4, 51)
+        Me.Button27.Location = New System.Drawing.Point(4, 50)
         Me.Button27.Name = "Button27"
         Me.Button27.Size = New System.Drawing.Size(100, 22)
         Me.Button27.TabIndex = 64
@@ -1899,8 +1887,9 @@ Partial Class MainWindow
         Me.Button28.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button28.BackColor = System.Drawing.Color.DarkCyan
         Me.Button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button28.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button28.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button28.Location = New System.Drawing.Point(208, 97)
+        Me.Button28.Location = New System.Drawing.Point(208, 96)
         Me.Button28.Name = "Button28"
         Me.Button28.Size = New System.Drawing.Size(100, 22)
         Me.Button28.TabIndex = 64
@@ -1912,8 +1901,9 @@ Partial Class MainWindow
         Me.Button29.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button29.BackColor = System.Drawing.Color.SteelBlue
         Me.Button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button29.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button29.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button29.Location = New System.Drawing.Point(208, 51)
+        Me.Button29.Location = New System.Drawing.Point(208, 50)
         Me.Button29.Name = "Button29"
         Me.Button29.Size = New System.Drawing.Size(100, 22)
         Me.Button29.TabIndex = 64
@@ -1925,8 +1915,9 @@ Partial Class MainWindow
         Me.Button30.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button30.BackColor = System.Drawing.Color.SteelBlue
         Me.Button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button30.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button30.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button30.Location = New System.Drawing.Point(208, 74)
+        Me.Button30.Location = New System.Drawing.Point(208, 73)
         Me.Button30.Name = "Button30"
         Me.Button30.Size = New System.Drawing.Size(100, 22)
         Me.Button30.TabIndex = 64
@@ -1938,8 +1929,9 @@ Partial Class MainWindow
         Me.Button31.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button31.BackColor = System.Drawing.Color.SteelBlue
         Me.Button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button31.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button31.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button31.Location = New System.Drawing.Point(106, 74)
+        Me.Button31.Location = New System.Drawing.Point(106, 73)
         Me.Button31.Name = "Button31"
         Me.Button31.Size = New System.Drawing.Size(100, 22)
         Me.Button31.TabIndex = 64
@@ -1951,8 +1943,9 @@ Partial Class MainWindow
         Me.Button32.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button32.BackColor = System.Drawing.Color.SteelBlue
         Me.Button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button32.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button32.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button32.Location = New System.Drawing.Point(106, 97)
+        Me.Button32.Location = New System.Drawing.Point(106, 96)
         Me.Button32.Name = "Button32"
         Me.Button32.Size = New System.Drawing.Size(100, 22)
         Me.Button32.TabIndex = 64
@@ -1964,8 +1957,9 @@ Partial Class MainWindow
         Me.Button33.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button33.BackColor = System.Drawing.Color.SteelBlue
         Me.Button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button33.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button33.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button33.Location = New System.Drawing.Point(4, 28)
+        Me.Button33.Location = New System.Drawing.Point(4, 27)
         Me.Button33.Name = "Button33"
         Me.Button33.Size = New System.Drawing.Size(100, 22)
         Me.Button33.TabIndex = 64
@@ -1977,8 +1971,9 @@ Partial Class MainWindow
         Me.Button34.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button34.BackColor = System.Drawing.Color.SteelBlue
         Me.Button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button34.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button34.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button34.Location = New System.Drawing.Point(4, 5)
+        Me.Button34.Location = New System.Drawing.Point(4, 4)
         Me.Button34.Name = "Button34"
         Me.Button34.Size = New System.Drawing.Size(100, 22)
         Me.Button34.TabIndex = 64
@@ -2002,10 +1997,10 @@ Partial Class MainWindow
         Me.TabPage9.Controls.Add(Me.Button56)
         Me.TabPage9.Controls.Add(Me.Button57)
         Me.TabPage9.Controls.Add(Me.Button58)
-        Me.TabPage9.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 23)
         Me.TabPage9.Name = "TabPage9"
         Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage9.Size = New System.Drawing.Size(311, 121)
+        Me.TabPage9.Size = New System.Drawing.Size(311, 120)
         Me.TabPage9.TabIndex = 1
         Me.TabPage9.Text = "Email Templates"
         Me.TabPage9.UseVisualStyleBackColor = True
@@ -2016,7 +2011,7 @@ Partial Class MainWindow
         Me.Button35.BackColor = System.Drawing.Color.SteelBlue
         Me.Button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button35.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button35.Location = New System.Drawing.Point(208, 28)
+        Me.Button35.Location = New System.Drawing.Point(208, 27)
         Me.Button35.Name = "Button35"
         Me.Button35.Size = New System.Drawing.Size(100, 22)
         Me.Button35.TabIndex = 66
@@ -2029,7 +2024,7 @@ Partial Class MainWindow
         Me.Button36.BackColor = System.Drawing.Color.SteelBlue
         Me.Button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button36.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button36.Location = New System.Drawing.Point(106, 28)
+        Me.Button36.Location = New System.Drawing.Point(106, 27)
         Me.Button36.Name = "Button36"
         Me.Button36.Size = New System.Drawing.Size(100, 22)
         Me.Button36.TabIndex = 67
@@ -2042,7 +2037,7 @@ Partial Class MainWindow
         Me.Button37.BackColor = System.Drawing.Color.SteelBlue
         Me.Button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button37.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button37.Location = New System.Drawing.Point(208, 6)
+        Me.Button37.Location = New System.Drawing.Point(208, 5)
         Me.Button37.Name = "Button37"
         Me.Button37.Size = New System.Drawing.Size(100, 22)
         Me.Button37.TabIndex = 68
@@ -2055,7 +2050,7 @@ Partial Class MainWindow
         Me.Button38.BackColor = System.Drawing.Color.SteelBlue
         Me.Button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button38.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button38.Location = New System.Drawing.Point(106, 51)
+        Me.Button38.Location = New System.Drawing.Point(106, 50)
         Me.Button38.Name = "Button38"
         Me.Button38.Size = New System.Drawing.Size(100, 22)
         Me.Button38.TabIndex = 69
@@ -2068,7 +2063,7 @@ Partial Class MainWindow
         Me.Button39.BackColor = System.Drawing.Color.SteelBlue
         Me.Button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button39.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button39.Location = New System.Drawing.Point(4, 97)
+        Me.Button39.Location = New System.Drawing.Point(4, 96)
         Me.Button39.Name = "Button39"
         Me.Button39.Size = New System.Drawing.Size(100, 22)
         Me.Button39.TabIndex = 70
@@ -2081,7 +2076,7 @@ Partial Class MainWindow
         Me.Button40.BackColor = System.Drawing.Color.SteelBlue
         Me.Button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button40.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button40.Location = New System.Drawing.Point(4, 74)
+        Me.Button40.Location = New System.Drawing.Point(4, 73)
         Me.Button40.Name = "Button40"
         Me.Button40.Size = New System.Drawing.Size(100, 22)
         Me.Button40.TabIndex = 71
@@ -2094,7 +2089,7 @@ Partial Class MainWindow
         Me.Button41.BackColor = System.Drawing.Color.SteelBlue
         Me.Button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button41.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button41.Location = New System.Drawing.Point(106, 5)
+        Me.Button41.Location = New System.Drawing.Point(106, 4)
         Me.Button41.Name = "Button41"
         Me.Button41.Size = New System.Drawing.Size(100, 22)
         Me.Button41.TabIndex = 72
@@ -2107,7 +2102,7 @@ Partial Class MainWindow
         Me.Button42.BackColor = System.Drawing.Color.SteelBlue
         Me.Button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button42.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button42.Location = New System.Drawing.Point(4, 51)
+        Me.Button42.Location = New System.Drawing.Point(4, 50)
         Me.Button42.Name = "Button42"
         Me.Button42.Size = New System.Drawing.Size(100, 22)
         Me.Button42.TabIndex = 73
@@ -2120,7 +2115,7 @@ Partial Class MainWindow
         Me.Button43.BackColor = System.Drawing.Color.DarkCyan
         Me.Button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button43.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button43.Location = New System.Drawing.Point(208, 97)
+        Me.Button43.Location = New System.Drawing.Point(208, 96)
         Me.Button43.Name = "Button43"
         Me.Button43.Size = New System.Drawing.Size(100, 22)
         Me.Button43.TabIndex = 74
@@ -2133,7 +2128,7 @@ Partial Class MainWindow
         Me.Button51.BackColor = System.Drawing.Color.SteelBlue
         Me.Button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button51.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button51.Location = New System.Drawing.Point(208, 51)
+        Me.Button51.Location = New System.Drawing.Point(208, 50)
         Me.Button51.Name = "Button51"
         Me.Button51.Size = New System.Drawing.Size(100, 22)
         Me.Button51.TabIndex = 75
@@ -2146,7 +2141,7 @@ Partial Class MainWindow
         Me.Button54.BackColor = System.Drawing.Color.SteelBlue
         Me.Button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button54.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button54.Location = New System.Drawing.Point(208, 74)
+        Me.Button54.Location = New System.Drawing.Point(208, 73)
         Me.Button54.Name = "Button54"
         Me.Button54.Size = New System.Drawing.Size(100, 22)
         Me.Button54.TabIndex = 75
@@ -2159,7 +2154,7 @@ Partial Class MainWindow
         Me.Button55.BackColor = System.Drawing.Color.SteelBlue
         Me.Button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button55.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button55.Location = New System.Drawing.Point(106, 74)
+        Me.Button55.Location = New System.Drawing.Point(106, 73)
         Me.Button55.Name = "Button55"
         Me.Button55.Size = New System.Drawing.Size(100, 22)
         Me.Button55.TabIndex = 76
@@ -2172,7 +2167,7 @@ Partial Class MainWindow
         Me.Button56.BackColor = System.Drawing.Color.SteelBlue
         Me.Button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button56.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button56.Location = New System.Drawing.Point(106, 97)
+        Me.Button56.Location = New System.Drawing.Point(106, 96)
         Me.Button56.Name = "Button56"
         Me.Button56.Size = New System.Drawing.Size(100, 22)
         Me.Button56.TabIndex = 77
@@ -2185,7 +2180,7 @@ Partial Class MainWindow
         Me.Button57.BackColor = System.Drawing.Color.SteelBlue
         Me.Button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button57.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button57.Location = New System.Drawing.Point(4, 28)
+        Me.Button57.Location = New System.Drawing.Point(4, 27)
         Me.Button57.Name = "Button57"
         Me.Button57.Size = New System.Drawing.Size(100, 22)
         Me.Button57.TabIndex = 78
@@ -2198,7 +2193,7 @@ Partial Class MainWindow
         Me.Button58.BackColor = System.Drawing.Color.SteelBlue
         Me.Button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button58.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button58.Location = New System.Drawing.Point(4, 5)
+        Me.Button58.Location = New System.Drawing.Point(4, 4)
         Me.Button58.Name = "Button58"
         Me.Button58.Size = New System.Drawing.Size(100, 22)
         Me.Button58.TabIndex = 79
@@ -2213,10 +2208,10 @@ Partial Class MainWindow
         Me.TabPage6.Controls.Add(Me.Button62)
         Me.TabPage6.Controls.Add(Me.Button60)
         Me.TabPage6.Controls.Add(Me.DbPanel16)
-        Me.TabPage6.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 23)
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(333, 586)
+        Me.TabPage6.Size = New System.Drawing.Size(333, 584)
         Me.TabPage6.TabIndex = 0
         Me.TabPage6.Text = "Chat"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -2304,7 +2299,7 @@ Partial Class MainWindow
         Me.Label27.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label27.Location = New System.Drawing.Point(5, 5)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(50, 13)
+        Me.Label27.Size = New System.Drawing.Size(50, 14)
         Me.Label27.TabIndex = 67
         Me.Label27.Text = "Chat Log"
         '
@@ -2349,10 +2344,10 @@ Partial Class MainWindow
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox2.Location = New System.Drawing.Point(255, 5)
         Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(85, 16)
+        Me.CheckBox2.Size = New System.Drawing.Size(99, 18)
         Me.CheckBox2.TabIndex = 23
         Me.CheckBox2.Text = "Always on Top"
         Me.CheckBox2.UseVisualStyleBackColor = True
@@ -2372,10 +2367,10 @@ Partial Class MainWindow
         'TabPage2
         '
         Me.TabPage2.Controls.Add(Me.RichTextBox3)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 23)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(347, 661)
+        Me.TabPage2.Size = New System.Drawing.Size(347, 660)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "JustNotepad"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -2386,9 +2381,51 @@ Partial Class MainWindow
         Me.RichTextBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.RichTextBox3.Location = New System.Drawing.Point(3, 3)
         Me.RichTextBox3.Name = "RichTextBox3"
-        Me.RichTextBox3.Size = New System.Drawing.Size(341, 655)
+        Me.RichTextBox3.Size = New System.Drawing.Size(341, 654)
         Me.RichTextBox3.TabIndex = 0
         Me.RichTextBox3.Text = ""
+        '
+        'btn_TimerReset
+        '
+        Me.btn_TimerReset.BackColor = System.Drawing.Color.Transparent
+        Me.btn_TimerReset.BackgroundImage = Global.SIRTool.My.Resources.Resources.refresh
+        Me.btn_TimerReset.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_TimerReset.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn_TimerReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_TimerReset.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.btn_TimerReset.Location = New System.Drawing.Point(311, 51)
+        Me.btn_TimerReset.Name = "btn_TimerReset"
+        Me.btn_TimerReset.Size = New System.Drawing.Size(10, 10)
+        Me.btn_TimerReset.TabIndex = 18
+        Me.btn_TimerReset.UseVisualStyleBackColor = False
+        '
+        'btn_TimerStop
+        '
+        Me.btn_TimerStop.BackColor = System.Drawing.Color.Transparent
+        Me.btn_TimerStop.BackgroundImage = Global.SIRTool.My.Resources.Resources.pause
+        Me.btn_TimerStop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_TimerStop.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn_TimerStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_TimerStop.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.btn_TimerStop.Location = New System.Drawing.Point(286, 51)
+        Me.btn_TimerStop.Name = "btn_TimerStop"
+        Me.btn_TimerStop.Size = New System.Drawing.Size(10, 10)
+        Me.btn_TimerStop.TabIndex = 19
+        Me.btn_TimerStop.UseVisualStyleBackColor = False
+        '
+        'btn_TimerStart
+        '
+        Me.btn_TimerStart.BackColor = System.Drawing.Color.Transparent
+        Me.btn_TimerStart.BackgroundImage = Global.SIRTool.My.Resources.Resources.play
+        Me.btn_TimerStart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_TimerStart.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn_TimerStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_TimerStart.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.btn_TimerStart.Location = New System.Drawing.Point(263, 51)
+        Me.btn_TimerStart.Name = "btn_TimerStart"
+        Me.btn_TimerStart.Size = New System.Drawing.Size(10, 10)
+        Me.btn_TimerStart.TabIndex = 20
+        Me.btn_TimerStart.UseVisualStyleBackColor = False
         '
         'MainWindow
         '
@@ -2401,6 +2438,7 @@ Partial Class MainWindow
         Me.MaximumSize = New System.Drawing.Size(371, 1200)
         Me.MinimumSize = New System.Drawing.Size(371, 726)
         Me.Name = "MainWindow"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "SIR Tool"
         Me.DbPanel1.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)
@@ -2553,8 +2591,6 @@ Partial Class MainWindow
     Friend WithEvents Button17 As System.Windows.Forms.Button
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents Button19 As System.Windows.Forms.Button
-    Friend WithEvents Button18 As System.Windows.Forms.Button
     Friend WithEvents TabPage5 As System.Windows.Forms.TabPage
     Friend WithEvents RichTextBox5 As System.Windows.Forms.RichTextBox
     Friend WithEvents DbPanel6 As SIRTool.dbPanel

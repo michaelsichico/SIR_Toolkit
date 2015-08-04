@@ -183,6 +183,10 @@ SIRToolkit
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:SIR_Toolkit.My.Resources.Resources.Red_Background_Wallpaper_Design_Art">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:SIR_Toolkit.My.Resources.Resources.SEM">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -248,6 +252,10 @@ SIRToolkit
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:SIR_Toolkit.My.Resources.Resources.trend_micro_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SIR_Toolkit.My.Resources.Resources.white_wallpaper_14">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
