@@ -1,0 +1,4 @@
+- Verified Client is requesting to Disable SN
+- Turn oFf AR on DR
+- Assured cx that the subscription has been closed
+- Remind SR

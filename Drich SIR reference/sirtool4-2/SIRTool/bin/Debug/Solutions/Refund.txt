@@ -1,0 +1,13 @@
+- Verified Client is demanding for a refund
+- Reason:
+-
+- Offer Winback:
+  [] License Extension
+  [] Freeze Subscription
+  [] License Swap/Merge
+- Result:
+- Amount to be Refunded:
+- Amount Save:
+- Turn off AR
+- Force Expire SN
+- Remind SR

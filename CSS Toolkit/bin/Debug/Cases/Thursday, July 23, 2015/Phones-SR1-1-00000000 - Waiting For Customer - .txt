@@ -1,0 +1,27 @@
+SR: 1-1-00000000
+Skillset: TS
+Caller Name: Percy
+Email Address: whatthe@hell.com
+Serial Number: xxxx-0000-0000-0000-0000
+Order Number: 1223456789
+First Contact: No
+Premium: Yes
+********************************************************
+
+[Symptom]
+====================================
+- asdsadsadsadsad
+
+[Issue]
+====================================
+- gdgdgddtdtr
+
+[Resolution]
+====================================
+
+[Put Client on Hold: 00:00:24:714]
+[Get back to Client: 00:00:30:291]
+[Put Client on Hold: 00:00:31:274]
+[Get back to Client: 00:00:51:621]
+
+Call Duration: 00:01:52:884

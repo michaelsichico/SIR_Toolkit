@@ -1,0 +1,24 @@
+SR: 123
+Skillset: CS
+Caller Name: e
+Email Address: e
+First Contact: No
+Premium: Yes
+********************************************************
+
+[Symptom]
+====================================
+- asdsadsadsadsad
+
+[Issue]
+====================================
+- 
+
+[Resolution]
+====================================
+CSmalware-told cx how to install
+- give the installer KB:
+
+- told cx that I will guide him until the license agreement
+
+Call Duration: 00:00:09:839

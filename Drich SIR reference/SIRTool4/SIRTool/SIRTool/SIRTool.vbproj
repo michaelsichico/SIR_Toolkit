@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4ACBA0F7-2E61-4949-92A2-5814EAE18547}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SIRTool.My.MyApplication</StartupObject>
+    <RootNamespace>SIRTool</RootNamespace>
+    <AssemblyName>SIRTool</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SIRTool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SIRTool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dbDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbDataSet.vb">
+      <DependentUpon>dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbemailDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbemailDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ChatManageSpiels.Designer.vb">
+      <DependentUpon>ChatManageSpiels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChatManageSpiels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CMManageTemplates.Designer.vb">
+      <DependentUpon>CMManageTemplates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CMManageTemplates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfirmMessageYN.Designer.vb">
+      <DependentUpon>ConfirmMessageYN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfirmMessageYN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TextViewer.Designer.vb">
+      <DependentUpon>TextViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TextViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainwindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainwindow.Designer.vb">
+      <DependentUpon>mainwindow.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfirmMessage.Designer.vb">
+      <DependentUpon>ConfirmMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfirmMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PhonesConfirmCopy.Designer.vb">
+      <DependentUpon>PhonesConfirmCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PhonesConfirmCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PhonesManageTemplates.Designer.vb">
+      <DependentUpon>PhonesManageTemplates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PhonesManageTemplates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\ChatManageSpiels.resx">
+      <DependentUpon>ChatManageSpiels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CMManageTemplates.resx">
+      <DependentUpon>CMManageTemplates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfirmMessageYN.resx">
+      <DependentUpon>ConfirmMessageYN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TextViewer.resx">
+      <DependentUpon>TextViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainwindow.resx">
+      <DependentUpon>mainwindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfirmMessage.resx">
+      <DependentUpon>ConfirmMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PhonesConfirmCopy.resx">
+      <DependentUpon>PhonesConfirmCopy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PhonesManageTemplates.resx">
+      <DependentUpon>PhonesManageTemplates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbDataSet.xsc">
+      <DependentUpon>dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbDataSet.xss">
+      <DependentUpon>dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbemailDS.xsc">
+      <DependentUpon>dbemailDS.xsd</DependentUpon>
+    </None>
+    <None Include="dbemailDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbemailDS.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbemailDS.xss">
+      <DependentUpon>dbemailDS.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\dbemail.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\db.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

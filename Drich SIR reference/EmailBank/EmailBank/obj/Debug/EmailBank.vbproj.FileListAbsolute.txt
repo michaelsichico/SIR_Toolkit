@@ -1,0 +1,28 @@
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\bin\Debug\EmailBank.exe.config
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\bin\Debug\EmailBank.exe
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\bin\Debug\EmailBank.pdb
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\bin\Debug\EmailBank.xml
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.Form1.resources
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.Resources.resources
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.vbproj.GenerateResource.Cache
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.exe
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.xml
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.pdb
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\bin\Debug\db.accdb
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.Editor.resources
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.Updater.resources
+F:\Career\Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.ViewSR.resources
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\bin\Debug\EmailBank.exe.config
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.exe
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.xml
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.pdb
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\bin\Debug\db.accdb
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\bin\Debug\EmailBank.exe
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\bin\Debug\EmailBank.pdb
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\bin\Debug\EmailBank.xml
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.Editor.resources
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.Form1.resources
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.Resources.resources
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.Updater.resources
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.ViewSR.resources
+D:\Career\Trend Micro - Cloud Security Engineer\VB Projects\EmailBank\EmailBank\obj\Debug\EmailBank.vbproj.GenerateResource.Cache

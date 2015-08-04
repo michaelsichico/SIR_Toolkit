@@ -1,0 +1,21 @@
+SR: asdasdasd
+Skillset: TS
+Caller Name: asdasdasd
+Email Address: asdasd
+First Contact: Yes
+Premium: Yes
+********************************************************
+
+[Symptom]
+====================================
+- asdsadsadsadsad
+
+[Issue]
+====================================
+- 
+
+[Resolution]
+====================================
+status:
+
+Call Duration: 00:00:06:993

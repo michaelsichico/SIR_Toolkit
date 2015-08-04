@@ -1,0 +1,20 @@
+SR: 1-1-23423423
+Skillset: TS
+Caller Name: Joshua Cruz
+First Contact: Yes
+Premium: Yes
+********************************************************
+
+[Symptom]
+====================================
+- asdsadsadsadsad
+
+[Issue]
+====================================
+- 
+
+[Resolution]
+====================================
+status:
+
+Call Duration: 00:00:03:391

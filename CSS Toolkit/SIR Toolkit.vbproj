@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F8151FD-D744-4CC7-B9BA-0D770EA8D8FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SIR_Toolkit.My.MyApplication</StartupObject>
+    <RootNamespace>SIR_Toolkit</RootNamespace>
+    <AssemblyName>SIR Toolkit</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SIR Toolkit.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SIR Toolkit.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>Off</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about_us.Designer.vb">
+      <DependentUpon>about_us.vb</DependentUpon>
+    </Compile>
+    <Compile Include="about_us.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chatform.Designer.vb">
+      <DependentUpon>chatform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="chatform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class1.vb" />
+    <Compile Include="contacts.Designer.vb">
+      <DependentUpon>contacts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="contacts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feedbackform.Designer.vb">
+      <DependentUpon>feedbackform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="feedbackform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="issue.Designer.vb">
+      <DependentUpon>issue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="issue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainform.Designer.vb">
+      <DependentUpon>mainform.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SEMTool.Designer.vb">
+      <DependentUpon>SEMTool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SEMTool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SIRTool.Designer.vb">
+      <DependentUpon>SIRTool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SIRTool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TabControlClass.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="timezone.Designer.vb">
+      <DependentUpon>timezone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="timezone.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="about_us.resx">
+      <DependentUpon>about_us.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chatform.resx">
+      <DependentUpon>chatform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contacts.resx">
+      <DependentUpon>contacts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feedbackform.resx">
+      <DependentUpon>feedbackform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="issue.resx">
+      <DependentUpon>issue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainform.resx">
+      <DependentUpon>mainform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SEMTool.resx">
+      <DependentUpon>SEMTool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SIRTool.resx">
+      <DependentUpon>SIRTool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="timezone.resx">
+      <DependentUpon>timezone.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-journey.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trend-micro-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1195429270821624493molumen_multicolor_power_buttons_4.svg.hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1433870751_exit_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1433870751_exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1433873769_play-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1433873726_stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1433874471_POWER---RESTART.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\239347-repeat_reload_refresh_loop-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engagement_chat_social_media_speech_bubble_communication_message_online_dialog_sms_chatting_flat_design_icon-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20131105_5278641f26ef8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\communicate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_flat_settings_png_settings_icon_business_icon_png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contacts-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contacts-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\communicate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barscode-copy-1410528154gn48k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time-Timezone-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feedback-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contacts-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contacts-icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contacts-icon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barscode-copy-1410528154gn48k1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time-Timezone-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time-Timezone-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lifesaver31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1436996236_pause2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Drich SIR reference\sirtool4-2\SIRTool\SIRTool.vbproj">
+      <Project>{12bc9e30-cc77-4459-bf08-c970eca5a562}</Project>
+      <Name>SIRTool</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="31353.ico" />
+    <None Include="Resources\TimeZone2.png" />
+    <None Include="Resources\Hot Issues2.png" />
+    <None Include="Resources\SEM2.png" />
+    <None Include="Resources\Contacts11.png" />
+    <None Include="Resources\Notes1.png" />
+    <None Include="Resources\Tball.png" />
+    <None Include="Resources\Feedback.png" />
+    <None Include="Resources\AboutUs.png" />
+    <None Include="Resources\percy.jpg" />
+    <None Include="Resources\bryan.jpg" />
+    <None Include="Resources\shua.jpg" />
+    <None Include="Resources\sichi3.jpg" />
+    <None Include="Resources\sichi2.jpg" />
+    <None Include="Resources\sichi1.jpg" />
+    <None Include="Resources\sichi.jpg" />
+    <None Include="Resources\TimeZone1.png" />
+    <None Include="Resources\Hot Issues1.png" />
+    <None Include="Resources\SEM.png" />
+    <None Include="Resources\Contacts1.png" />
+    <None Include="Resources\Notes.png" />
+    <None Include="Resources\TimeZone.png" />
+    <None Include="Resources\Hot Issues.png" />
+    <None Include="Resources\SEM1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

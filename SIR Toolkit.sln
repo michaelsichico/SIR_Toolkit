@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SIR Toolkit", "CSS Toolkit\SIR Toolkit.vbproj", "{0F8151FD-D744-4CC7-B9BA-0D770EA8D8FB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SIRTool", "Drich SIR reference\sirtool4-2\SIRTool\SIRTool.vbproj", "{12BC9E30-CC77-4459-BF08-C970ECA5A562}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsApplication1", "WindowsApplication1\WindowsApplication1.vbproj", "{905FD944-CB70-4C28-9BAE-F98864579F9D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsApplication2", "WindowsApplication2\WindowsApplication2.vbproj", "{326AB247-9914-4E1D-B1CD-090A1D4AED6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F8151FD-D744-4CC7-B9BA-0D770EA8D8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8151FD-D744-4CC7-B9BA-0D770EA8D8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8151FD-D744-4CC7-B9BA-0D770EA8D8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8151FD-D744-4CC7-B9BA-0D770EA8D8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BC9E30-CC77-4459-BF08-C970ECA5A562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BC9E30-CC77-4459-BF08-C970ECA5A562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BC9E30-CC77-4459-BF08-C970ECA5A562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BC9E30-CC77-4459-BF08-C970ECA5A562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905FD944-CB70-4C28-9BAE-F98864579F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905FD944-CB70-4C28-9BAE-F98864579F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905FD944-CB70-4C28-9BAE-F98864579F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905FD944-CB70-4C28-9BAE-F98864579F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326AB247-9914-4E1D-B1CD-090A1D4AED6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326AB247-9914-4E1D-B1CD-090A1D4AED6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326AB247-9914-4E1D-B1CD-090A1D4AED6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326AB247-9914-4E1D-B1CD-090A1D4AED6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

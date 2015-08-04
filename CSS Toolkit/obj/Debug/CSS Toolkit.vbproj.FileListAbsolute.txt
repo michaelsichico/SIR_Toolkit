@@ -1,0 +1,43 @@
+c:\users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\bin\Debug\CSS Toolkit.exe.config
+c:\users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\bin\Debug\CSS Toolkit.exe
+c:\users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\bin\Debug\CSS Toolkit.pdb
+c:\users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\bin\Debug\CSS Toolkit.xml
+c:\users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS_Toolkit.Resources.resources
+c:\users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS Toolkit.vbproj.GenerateResource.Cache
+c:\users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS Toolkit.exe
+c:\users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS Toolkit.xml
+c:\users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS Toolkit.pdb
+C:\Users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS Toolkit.vbprojResolveAssemblyReference.cache
+C:\Users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS_Toolkit.mainform.resources
+C:\Users\sichi\documents\visual studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS_Toolkit.phonefrm.resources
+C:\Users\sichi\Documents\Visual Studio 2013\Projects\CSS Toolkit\CSS Toolkit\bin\Debug\Data\dbemail.accdb
+C:\Users\sichi\Documents\Visual Studio 2013\Projects\CSS Toolkit\CSS Toolkit\bin\Debug\Data\db.accdb
+C:\Users\sichi\Documents\Visual Studio 2013\Projects\CSS Toolkit\CSS Toolkit\bin\Debug\SIRTool.exe
+C:\Users\sichi\Documents\Visual Studio 2013\Projects\CSS Toolkit\CSS Toolkit\bin\Debug\SIRTool.pdb
+C:\Users\sichi\Documents\Visual Studio 2013\Projects\CSS Toolkit\CSS Toolkit\bin\Debug\SIRTool.xml
+C:\Users\sichi\Documents\Visual Studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS_Toolkit.chatform.resources
+C:\Users\sichi\Documents\Visual Studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS_Toolkit.feedbackform.resources
+C:\Users\sichi\Documents\Visual Studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS_Toolkit.contacts.resources
+C:\Users\sichi\Documents\Visual Studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS_Toolkit.issue.resources
+C:\Users\sichi\Documents\Visual Studio 2013\Projects\CSS Toolkit\CSS Toolkit\obj\Debug\CSS_Toolkit.timezone.resources
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\CSS Toolkit.vbprojResolveAssemblyReference.cache
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\CSS Toolkit.vbproj.GenerateResource.Cache
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\bin\Debug\SIRTool.exe
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\bin\Debug\SIRTool.pdb
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\bin\Debug\SIRTool.xml
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\bin\Debug\SIR Toolkit.exe.config
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\bin\Debug\SIR Toolkit.exe
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\bin\Debug\SIR Toolkit.pdb
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\bin\Debug\SIR Toolkit.xml
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR_Toolkit.chatform.resources
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR_Toolkit.contacts.resources
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR_Toolkit.feedbackform.resources
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR_Toolkit.issue.resources
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR_Toolkit.mainform.resources
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR_Toolkit.Resources.resources
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR_Toolkit.SEMTool.resources
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR_Toolkit.SIRTool.resources
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR_Toolkit.timezone.resources
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR Toolkit.exe
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR Toolkit.xml
+C:\Users\sichi\Documents\Trend Micro\CSS Toolkit\CSS Toolkit\obj\Debug\SIR Toolkit.pdb

@@ -1,0 +1,296 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SIRTool
+</name>
+</assembly>
+<members>
+<member name="P:SIRTool.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SIRTool.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SIRTool.My.Resources.Resources.headerbgstandard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:SIRTool.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:SIRTool.dbemailDataSet.ProbcatDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SIRTool.dbemailDataSet.SubcatDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SIRTool.dbemailDataSet.TemplateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SIRTool.dbemailDataSet.ProbcatRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SIRTool.dbemailDataSet.SubcatRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SIRTool.dbemailDataSet.TemplateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SIRTool.dbemailDataSet.ProbcatRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SIRTool.dbemailDataSet.SubcatRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SIRTool.dbemailDataSet.TemplateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SIRTool.dbemailDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SIRTool.dbemailDataSetTableAdapters.ProbcatTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SIRTool.dbemailDataSetTableAdapters.SubcatTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SIRTool.dbemailDataSetTableAdapters.TemplateTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SIRTool.dbemailDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SIRTool.dbemailDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SIRTool.dbemailDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SIRTool.dbemailDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SIRTool.dbemailDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SIRTool.dbemailDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SIRTool.dbemailDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SIRTool.dbemailDataSetTableAdapters.TableAdapterManager.UpdateAll(SIRTool.dbemailDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SIRTool.dbemailDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SIRTool.dbemailDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SIRTool.dbemailDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SIRTool.DBDS.ProbcatDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SIRTool.DBDS.SubcatDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SIRTool.DBDS.TemplateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SIRTool.DBDS.NotesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SIRTool.DBDS.ProbcatRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SIRTool.DBDS.SubcatRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SIRTool.DBDS.TemplateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SIRTool.DBDS.NotesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SIRTool.DBDS.ProbcatRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SIRTool.DBDS.SubcatRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SIRTool.DBDS.TemplateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SIRTool.DBDS.NotesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SIRTool.DBDS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SIRTool.DBDSTableAdapters.ProbcatTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SIRTool.DBDSTableAdapters.SubcatTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SIRTool.DBDSTableAdapters.TemplateTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SIRTool.DBDSTableAdapters.NotesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SIRTool.DBDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SIRTool.DBDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SIRTool.DBDSTableAdapters.TableAdapterManager.UpdateInsertedRows(SIRTool.DBDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SIRTool.DBDSTableAdapters.TableAdapterManager.UpdateDeletedRows(SIRTool.DBDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SIRTool.DBDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SIRTool.DBDSTableAdapters.TableAdapterManager.UpdateAll(SIRTool.DBDS)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SIRTool.DBDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SIRTool.DBDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SIRTool.DBDSTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SIRTool.DBEDS.ProbcatDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SIRTool.DBEDS.SubcatDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SIRTool.DBEDS.TemplateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SIRTool.DBEDS.ProbcatRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SIRTool.DBEDS.SubcatRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SIRTool.DBEDS.TemplateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SIRTool.DBEDS.ProbcatRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SIRTool.DBEDS.SubcatRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SIRTool.DBEDS.TemplateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SIRTool.DBEDS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SIRTool.DBEDSTableAdapters.ProbcatTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SIRTool.DBEDSTableAdapters.SubcatTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SIRTool.DBEDSTableAdapters.TemplateTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SIRTool.DBEDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SIRTool.DBEDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SIRTool.DBEDSTableAdapters.TableAdapterManager.UpdateInsertedRows(SIRTool.DBEDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SIRTool.DBEDSTableAdapters.TableAdapterManager.UpdateDeletedRows(SIRTool.DBEDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SIRTool.DBEDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SIRTool.DBEDSTableAdapters.TableAdapterManager.UpdateAll(SIRTool.DBEDS)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SIRTool.DBEDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SIRTool.DBEDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SIRTool.DBEDSTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
